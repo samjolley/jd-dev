@@ -1314,6 +1314,40 @@ Widgets
   background: #fff;
   padding: 40px 0 20px;
 }
+
+.home-works .fa {
+  color: #0964dd;
+}
+
+.home-works .widget {
+  padding: 0 0 50px 20px;
+}
+
+.home-works-1,
+.home-works-2,
+.home-works-3,
+.home-works-4 {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (min-width: 810px) {
+  .home-works-1,
+  .home-works-2,
+  .home-works-3,
+  .home-works-4 {
+    float: right;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .home-works-1,
+  .home-works-2,
+  .home-works-3,
+  .home-works-4 {
+    float: right;
+    width: 25%;
+  }
+}
 .featured-content .entry {
   border-bottom: 2px solid #ebebeb;
   padding: 10px 0;

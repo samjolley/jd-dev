@@ -181,6 +181,33 @@ Widgets
 	padding: 40px 0 20px;
 }
 
+.home-works .fa {
+	color: $blue;
+}
+
+.home-works .widget {
+	padding: 0 20px 50px 0;
+}
+
+.home-works-1,
+.home-works-2,
+.home-works-3,
+.home-works-4 {
+	text-align: center;
+	width: 100%;
+
+	@include media($small-screen-up) {
+		float: left;
+		width: 50%;
+	}
+
+	@include media($medium-screen-up) {
+		float: left;
+		width: 25%;
+	}
+
+}
+
 /* Featured Page and Featured Post
 --------------------------------------------- */
 

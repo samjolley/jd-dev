@@ -23,7 +23,6 @@ function utility_pro_homepage_setup() {
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
-		'footer-contact'   => is_active_sidebar( 'utility-footer-contact' ),
 	);
 
 	// Return early if no sidebars are active.
