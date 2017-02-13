@@ -1306,6 +1306,14 @@ Widgets
   background: #fff;
   padding: 40px 0 20px;
 }
+
+.section-1 .widget {
+  padding: 0 20px;
+}
+.home-works {
+  background: #fff;
+  padding: 40px 0 20px;
+}
 .featured-content .entry {
   border-bottom: 2px solid #ebebeb;
   padding: 10px 0;

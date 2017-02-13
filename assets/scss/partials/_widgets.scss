@@ -151,7 +151,7 @@ Widgets
 
 }
 
-/* Logos Section
+/* Logos Section Widget Area
 --------------------------------------------- */
 .logos {
 	background: $white;
@@ -163,9 +163,20 @@ Widgets
 }
 
 
-/* Section 1
+/* Section 1 Widget Area
 --------------------------------------------- */
 .section-1 {
+	background: $white;
+	padding: 40px 0 20px;
+}
+
+.section-1  .widget {
+	padding: 0 20px;
+}
+
+/* How it Works Widget Area
+--------------------------------------------- */
+.home-works {
 	background: $white;
 	padding: 40px 0 20px;
 }

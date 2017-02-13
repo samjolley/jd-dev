@@ -62,6 +62,26 @@ function utility_pro_register_widget_areas() {
 			'name'        => __( 'Section 1', 'utility-pro' ),
 			'description' => __( 'This is the Section 1 area on the home page.', 'utility-pro' ),
 		),
+		array(
+			'id'          => 'utility-home-works-1',
+			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 1 ),
+			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
+		),
+		array(
+			'id'          => 'utility-home-works-2',
+			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 2 ),
+			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 2 ),
+		),
+		array(
+			'id'          => 'utility-home-works-3',
+			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 3 ),
+			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 3 ),
+		),
+		array(
+			'id'          => 'utility-home-works-4',
+			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 4 ),
+			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
+		),
 	);
 
 	$widget_areas = apply_filters( 'utility_pro_default_widget_areas', $widget_areas );

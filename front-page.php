@@ -21,10 +21,8 @@ function utility_pro_homepage_setup() {
 		'home_gallery_1'   => is_active_sidebar( 'utility-home-gallery-1' ),
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 		'logos'   => is_active_sidebar( 'utility-logos' ),
+		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
-		'section-2'   => is_active_sidebar( 'utility-section-2' ),
-		'section-3'   => is_active_sidebar( 'utility-section-3' ),
-		'section-4'   => is_active_sidebar( 'utility-section-4' ),
 		'footer-contact'   => is_active_sidebar( 'utility-footer-contact' ),
 	);
 
@@ -62,6 +60,11 @@ function utility_pro_homepage_setup() {
 		// Add home Section 1 area if "Section 1" widget area is active.
 		if ( $home_sidebars['section-1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
+		}
+
+		// Add how it works widget area if "How it Works 1" widget area is active.
+		if ( $home_sidebars['home_works_1'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_works' );
 		}
 	}
 
@@ -199,6 +202,50 @@ function utility_pro_add_section_1() {
 	);
 }
 
+/**
+ * Display content for the "How it Works" section.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_home_works() {
+
+	printf( '<div %s>', genesis_attr( 'home-works' ) );
+	genesis_structural_wrap( 'home-works' );
+
+	genesis_widget_area(
+		'utility-home-works-1',
+		array(
+			'before' => '<div class="home-works-1 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_widget_area(
+		'utility-home-works-2',
+		array(
+			'before' => '<div class="home-works-2 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_widget_area(
+		'utility-home-works-3',
+		array(
+			'before' => '<div class="home-works-3 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+	genesis_widget_area(
+		'utility-home-works-4',
+		array(
+			'before' => '<div class="home-works-4 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_structural_wrap( 'home-works', 'close' );
+	echo '</div>';
+}
 
 /**
  * Display latest posts instead of static page.

@@ -1412,7 +1412,7 @@ Widgets
     width: 60%;
   }
 }
-/* Logos Section
+/* Logos Section Widget Area
 --------------------------------------------- */
 .logos {
   background: #fff;
@@ -1423,9 +1423,20 @@ Widgets
   padding: 0 20px;
 }
 
-/* Section 1
+/* Section 1 Widget Area
 --------------------------------------------- */
 .section-1 {
+  background: #fff;
+  padding: 40px 0 20px;
+}
+
+.section-1 .widget {
+  padding: 0 20px;
+}
+
+/* How it Works Widget Area
+--------------------------------------------- */
+.home-works {
   background: #fff;
   padding: 40px 0 20px;
 }
