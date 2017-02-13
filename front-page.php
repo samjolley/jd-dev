@@ -20,6 +20,12 @@ function utility_pro_homepage_setup() {
 		'home_welcome' 	   => is_active_sidebar( 'utility-home-welcome' ),
 		'home_gallery_1'   => is_active_sidebar( 'utility-home-gallery-1' ),
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
+		'logos'   => is_active_sidebar( 'utility-logos' ),
+		'section-1'   => is_active_sidebar( 'utility-section-1' ),
+		'section-2'   => is_active_sidebar( 'utility-section-2' ),
+		'section-3'   => is_active_sidebar( 'utility-section-3' ),
+		'section-4'   => is_active_sidebar( 'utility-section-4' ),
+		'footer-contact'   => is_active_sidebar( 'utility-footer-contact' ),
 	);
 
 	// Return early if no sidebars are active.
@@ -38,6 +44,11 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome' );
 		}
 
+		// Add home logos area if "Logos Section" widget area is active.
+		if ( $home_sidebars['logos'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome' );
+		}
+
 		// Add home gallery area if "Home Gallery 1" widget area is active.
 		if ( $home_sidebars['home_gallery_1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_gallery' );
@@ -46,6 +57,27 @@ function utility_pro_homepage_setup() {
 		// Add call to action area if "Call to Action" widget area is active.
 		if ( $home_sidebars['call_to_action'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_call_to_action' );
+		}
+
+		// Add call to action area if "Section 1" widget area is active.
+		if ( $home_sidebars['section_1'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
+		}
+		// Add call to action area if "Section 2" widget area is active.
+		if ( $home_sidebars['section_2'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_2' );
+		}
+		// Add call to action area if "Section 3" widget area is active.
+		if ( $home_sidebars['section_3'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_3' );
+		}
+		// Add call to action area if "Section 4" widget area is active.
+		if ( $home_sidebars['section_4'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_4' );
+		}
+		// Add call to action area if "Footer Contact" widget area is active.
+		if ( $home_sidebars['footer_contact'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_footer_contact' );
 		}
 	}
 
@@ -84,6 +116,21 @@ function utility_pro_add_home_welcome() {
 	genesis_widget_area( 'utility-home-welcome',
 		array(
 			'before' => '<div class="home-welcome"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for the "Logos Section".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_logos() {
+
+	genesis_widget_area( 'utility-logos',
+		array(
+			'before' => '<div class="logos"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
@@ -149,6 +196,88 @@ function utility_pro_add_call_to_action() {
 		)
 	);
 }
+
+/**
+ * Display content for "Section 1".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_1() {
+
+	genesis_widget_area(
+		'utility-section-1',
+		array(
+			'before' => '<div class="section-1"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Section 2".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_2() {
+
+	genesis_widget_area(
+		'utility-section-2',
+		array(
+			'before' => '<div class="section-2"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Section 3".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_3() {
+
+	genesis_widget_area(
+		'utility-section-3',
+		array(
+			'before' => '<div class="section-3"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Section 4".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_4() {
+
+	genesis_widget_area(
+		'utility-section-4',
+		array(
+			'before' => '<div class="section-4"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Footer Contact".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_footer_contact() {
+
+	genesis_widget_area(
+		'utility-footer-contact',
+		array(
+			'before' => '<div class="footer-contact"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+
 
 /**
  * Display latest posts instead of static page.

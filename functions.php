@@ -49,16 +49,6 @@ function utility_pro_setup() {
 	// Add support for three footer widget areas.
 	add_theme_support( 'genesis-footer-widgets', 3 );
 
-	// Add support for additional color style options.
-	add_theme_support(
-		'genesis-style-selector',
-		array(
-			'utility-pro-purple' => __( 'Purple', 'utility-pro' ),
-			'utility-pro-green'  => __( 'Green', 'utility-pro' ),
-			'utility-pro-red'    => __( 'Red', 'utility-pro' ),
-		)
-	);
-
 	// Add support for structural wraps (all default Genesis wraps unless noted).
 	add_theme_support(
 		'genesis-structural-wraps',
@@ -206,3 +196,28 @@ include get_stylesheet_directory() . '/includes/enqueue-assets.php';
 
 // Miscellaenous functions used in theme configuration.
 include get_stylesheet_directory() . '/includes/theme-config.php';
+
+// Full width layout
+add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+// Remove standard loop and replace with loop showing Posts, not Page content.
+remove_action( 'genesis_loop', 'genesis_do_loop' );
+// We've already removed the loop. We don't want to add this custom one in.
+// add_action ( 'genesis_loop', 'utility_pro_front_loop' );
+
+// Add Editor Style
+/**
+ * @author    Carrie Dils
+ * @example   https://carriedils.com/add-editor-style/
+ */
+add_action( 'init', 'cd_add_editor_styles' );
+/**
+ * Apply theme's stylesheet to the visual editor.
+ *
+ * @uses add_editor_style() Links a stylesheet to visual editor
+ * @uses get_stylesheet_uri() Returns URI of theme stylesheet
+ */
+function cd_add_editor_styles() {
+
+    add_editor_style( get_stylesheet_uri() );
+
+}

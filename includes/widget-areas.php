@@ -28,6 +28,11 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
 		),
 		array(
+			'id'          => 'utility-logos',
+			'name'        => __( 'Logos Section', 'utility-pro' ),
+			'description' => __( 'This is the Logos section on the home page.', 'utility-pro' ),
+		),
+		array(
 			'id'          => 'utility-home-gallery-1',
 			'name'        => sprintf( _x( 'Home Gallery %d', 'Group of Home Gallery widget areas', 'utility-pro' ), 1 ),
 			'description' => sprintf( _x( 'Home Gallery %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
@@ -51,6 +56,31 @@ function utility_pro_register_widget_areas() {
 			'id'          => 'utility-call-to-action',
 			'name'        => __( 'Call to Action', 'utility-pro' ),
 			'description' => __( 'This is the Call to Action section on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-section-1',
+			'name'        => __( 'Section 1', 'utility-pro' ),
+			'description' => __( 'This is the Section 1 on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-section-2',
+			'name'        => __( 'Section 2', 'utility-pro' ),
+			'description' => __( 'This is the Section 2 on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-section-3',
+			'name'        => __( 'Section 3', 'utility-pro' ),
+			'description' => __( 'This is the Section 3 on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-section-4',
+			'name'        => __( 'Section 4', 'utility-pro' ),
+			'description' => __( 'This is the Section 4 on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-footer-contact',
+			'name'        => __( 'Footer Contact', 'utility-pro' ),
+			'description' => __( 'This is the Footer Contact section.', 'utility-pro' ),
 		),
 	);
 
