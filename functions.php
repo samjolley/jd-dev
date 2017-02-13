@@ -58,6 +58,7 @@ function utility_pro_setup() {
 			'footernav',    // Custom.
 			'header',
 			'home-gallery', // Custom.
+			'home-works',   // Custom.
 			'menu-footer',  // Custom.
 			'nav',
 			'site-inner',

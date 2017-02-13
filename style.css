@@ -1417,6 +1417,7 @@ Widgets
 .logos {
   background: #fff;
   padding: 40px 0 20px;
+  text-align: center;
 }
 
 .logos .widget {
