@@ -58,11 +58,6 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the Logos section on the home page.', 'utility-pro' ),
 		),
 		array(
-			'id'          => 'utility-section-1',
-			'name'        => __( 'Section 1', 'utility-pro' ),
-			'description' => __( 'This is the Section 1 area on the home page.', 'utility-pro' ),
-		),
-		array(
 			'id'          => 'utility-home-works-1',
 			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 1 ),
 			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
@@ -81,6 +76,11 @@ function utility_pro_register_widget_areas() {
 			'id'          => 'utility-home-works-4',
 			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 4 ),
 			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
+		),
+		array(
+			'id'          => 'utility-section-1',
+			'name'        => __( 'Section 1', 'utility-pro' ),
+			'description' => __( 'This is the Section 1 area on the home page.', 'utility-pro' ),
 		),
 	);
 

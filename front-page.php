@@ -56,14 +56,14 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_logos' );
 		}
 
-		// Add home Section 1 area if "Section 1" widget area is active.
-		if ( $home_sidebars['section-1'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
-		}
-
 		// Add how it works widget area if "How it Works 1" widget area is active.
 		if ( $home_sidebars['home_works_1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_works' );
+		}
+
+		// Add home Section 1 area if "Section 1" widget area is active.
+		if ( $home_sidebars['section-1'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
 		}
 	}
 
@@ -187,22 +187,7 @@ function utility_pro_add_logos() {
 }
 
 /**
- * Display content for "Section 1".
- *
- * @since 1.0.0
- */
-function utility_pro_add_section_1() {
-
-	genesis_widget_area( 'utility-section-1',
-		array(
-			'before' => '<div class="section-1"><div class="wrap">',
-			'after' => '</div></div>',
-		)
-	);
-}
-
-/**
- * Display content for the "How it Works" section.
+ * Display content for the "Home Gallery" section.
  *
  * @since 1.0.0
  */
@@ -245,6 +230,22 @@ function utility_pro_add_home_works() {
 	genesis_structural_wrap( 'home-works', 'close' );
 	echo '</div>';
 }
+
+/**
+ * Display content for "Section 1".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_1() {
+
+	genesis_widget_area( 'utility-section-1',
+		array(
+			'before' => '<div class="section-1"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
 
 /**
  * Display latest posts instead of static page.
