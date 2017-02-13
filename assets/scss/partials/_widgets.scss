@@ -47,6 +47,7 @@ Widgets
 .home-welcome .widgettitle {
 	color: $white;
 	text-transform: none;
+	font-size: 55px;
 
 	@include media($smaller-screen-up) {
 		font-size: 80px;

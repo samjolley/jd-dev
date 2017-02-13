@@ -1174,6 +1174,7 @@ Widgets
 .home-welcome .widgettitle {
   color: #fff;
   text-transform: none;
+  font-size: 55px;
 }
 @media screen and (min-width: 480px) {
   .home-welcome .widgettitle {
@@ -1452,7 +1453,7 @@ div.gform_wrapper textarea:focus {
 @media screen and (min-width: 1023px) {
   .title-area {
     text-align: right;
-    width: 50%;
+    width: 45%;
   }
 }
 
@@ -1515,7 +1516,7 @@ div.gform_wrapper textarea:focus {
 @media screen and (min-width: 1023px) {
   .site-header .widget-area {
     text-align: left;
-    width: 50%;
+    width: 51%;
   }
 }
 
