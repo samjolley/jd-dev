@@ -57,31 +57,6 @@ function utility_pro_register_widget_areas() {
 			'name'        => __( 'Call to Action', 'utility-pro' ),
 			'description' => __( 'This is the Call to Action section on the home page.', 'utility-pro' ),
 		),
-		array(
-			'id'          => 'utility-section-1',
-			'name'        => __( 'Section 1', 'utility-pro' ),
-			'description' => __( 'This is the Section 1 on the home page.', 'utility-pro' ),
-		),
-		array(
-			'id'          => 'utility-section-2',
-			'name'        => __( 'Section 2', 'utility-pro' ),
-			'description' => __( 'This is the Section 2 on the home page.', 'utility-pro' ),
-		),
-		array(
-			'id'          => 'utility-section-3',
-			'name'        => __( 'Section 3', 'utility-pro' ),
-			'description' => __( 'This is the Section 3 on the home page.', 'utility-pro' ),
-		),
-		array(
-			'id'          => 'utility-section-4',
-			'name'        => __( 'Section 4', 'utility-pro' ),
-			'description' => __( 'This is the Section 4 on the home page.', 'utility-pro' ),
-		),
-		array(
-			'id'          => 'utility-footer-contact',
-			'name'        => __( 'Footer Contact', 'utility-pro' ),
-			'description' => __( 'This is the Footer Contact section.', 'utility-pro' ),
-		),
 	);
 
 	$widget_areas = apply_filters( 'utility_pro_default_widget_areas', $widget_areas );
