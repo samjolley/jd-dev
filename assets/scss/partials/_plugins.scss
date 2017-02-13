@@ -60,30 +60,105 @@ li a .fa {
 
 div.gform_wrapper input[type="email"],
 div.gform_wrapper input[type="text"],
+div.gform_wrapper input[type="tel"],
+div.gform_wrapper input[type="url"],
 div.gform_wrapper textarea,
+div.gform_wrapper select,
 div.gform_wrapper .ginput_complex label {
-	padding: 16px;
+     font-size: 18px;
+     padding: 12px 20px;
+}
+
+div.gform_wrapper .validation_error {
+     text-align: center;
+     font-family: 'futura-pt', sans-serif;
+     color: #e97c3a;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 700;
+     letter-spacing: .100em;
+     max-width: 500px;
+     margin: 0 auto 40px auto;
+}
+
+div.gform_wrapper select {
+     height: 50px;
+}
+
+div.gform_wrapper textarea.medium {
+     height: 200px;
+}
+
+div.gform_wrapper label.gfield_label {
+     color: #3b4445;
+     font-size: 20px;
+     font-weight: 700;
 }
 
 div.gform_wrapper .ginput_complex label {
-	padding: 0;
+     color: #3b4445;
+     font-size: 18px;
+     padding: 0;
+     font-style: italic;
+     display: none;
+}
+
+div.gform_wrapper .gfield_required {
+     color: #660000;
+     font-weight: 400;
+}
+
+div.gform_wrapper .gfield_error input,
+div.gform_wrapper .gfield_error .gfield_select {
+     border: 2px solid #e97c3a;
 }
 
 div.gform_wrapper li,
 div.gform_wrapper form li {
-	margin: 16px 0 0;
+     margin: 0 0 30px 0;
+     list-style: none;
 }
 
-.sidebar .gform_wrapper .top_label input.medium,
-.sidebar .gform_wrapper .top_label select.medium,
-.site-inner .gform_wrapper .gform_footer input.button,
-.site-inner .gform_wrapper .gform_footer input[type="submit"] {
-	width: 100%;
+div.gform_wrapper form li .validation_message {
+     display: none;
 }
 
-div.gform_wrapper input:focus,
-div.gform_wrapper textarea:focus {
-	outline: 1px dotted lighten($black, 63);
+div.gform_wrapper .gf_clear {
+     clear: both;
+}
+
+div.gform_wrapper .ginput_left,
+div.gform_wrapper .gf_left_half,
+div.gform_wrapper span.name_first {
+     float: left;
+     width: 48%;
+     clear: left !important;
+}
+
+div.gform_wrapper .ginput_right,
+div.gform_wrapper .gf_right_half,
+div.gform_wrapper span.name_last {
+     float: right;
+     width: 48%;
+     clear: right !important;
+}
+
+.gform_wrapper ul li.gfield {
+     clear: both;
+     overflow: auto;
+}
+
+div.gform_wrapper .gform_validation_container,
+div.gform_wrapper .gfield.hide_field {
+     display: none;
+}
+
+div.gform_wrapper .gform_footer {
+     text-align: center;
+}
+
+div.gform_wrapper .gform_footer .gform_button {
+     padding: 15px 80px;
 }
 
 /* ## Jetpack

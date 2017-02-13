@@ -233,3 +233,63 @@ p.form-submit,
 .form-allowed-tags {
 	font-size: $secondary-font-size;
 }
+
+/* Contact Form
+--------------------------------------------- */
+.contact-form {
+     display: none;
+     background-color: #f0f3f3;
+     padding: 65px 0;
+}
+
+.contact-form .gform_wrapper {
+     max-width: 850px;
+     margin: 0 auto;
+}
+
+.contact-form .title {
+     color: #202526;
+     font-size: 46px;
+     font-weight: 700;
+     text-align: center;
+     margin: 0 0 54px;
+}
+
+.contact-form .description {
+     text-align: center;
+     font-size: 24px;
+     font-style: italic;
+     margin: 0 0 34px;
+}
+
+.contact-form .how-wrap {
+     overflow: auto;
+     border-bottom: 1px solid #d8dbdb;
+     margin: 0 0 34px 0;
+     padding-bottom: 34px;
+}
+
+.contact-form .how {
+     width: 33.3333%;
+     float: left;
+     padding: 0 20px;
+     font-size: 16px;
+}
+
+.contact-form .how span {
+     color: #a2dae3;
+     font-size: 38px;
+     float: left;
+     height: 105px;
+     margin: 0 15px 0 0;
+}
+
+.contact-form .how:last-of-type {
+     float: right;
+}
+
+.contact-form .how-wrap h6 {
+     font-family: 'futura-pt', sans-serif;
+     font-size: 24px;
+     font-weight: 700;
+}
