@@ -26,6 +26,10 @@ Structure and Layout
 	padding-top: 40px;
 }
 
+.home .site-inner {
+	display: none;
+}
+
 .utility-landing .site-container {
 	margin: 40px auto;
 	max-width: $wrap-max-width-medium;
@@ -148,4 +152,21 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 		clear: both;
 	}
 
+}
+
+/* Front Page
+--------------------------------------------- */
+
+
+
+/* Contact Page
+--------------------------------------------- */
+
+.page-contact .footer-contact {
+	display: block;
+	background: #fff;
+}
+
+.page-contact .site-inner {
+	padding: 0;
 }

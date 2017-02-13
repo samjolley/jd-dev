@@ -700,6 +700,10 @@ Structure and Layout
   padding-top: 40px;
 }
 
+.home .site-inner {
+  display: none;
+}
+
 .utility-landing .site-container {
   margin: 40px auto;
   max-width: 960px;
@@ -861,6 +865,17 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     clear: both;
   }
 }
+/* Front Page
+--------------------------------------------- */
+.page-contact .footer-contact {
+  display: block;
+  background: #fff;
+}
+
+.page-contact .site-inner {
+  padding: 0;
+}
+
 /* # Common
 ---------------------------------------------------------------------------------------------------- */
 /*
@@ -1278,6 +1293,18 @@ Widgets
     top: -2px;
     width: 60%;
   }
+}
+.logos {
+  background: #fff;
+  padding: 40px 0 20px;
+}
+
+.logos .widget {
+  padding: 0 20px;
+}
+.section-1 {
+  background: #fff;
+  padding: 40px 0 20px;
 }
 .featured-content .entry {
   border-bottom: 2px solid #ebebeb;
@@ -2120,14 +2147,6 @@ p.form-submit,
   font-family: 'futura-pt', sans-serif;
   font-size: 24px;
   font-weight: 700;
-}
-.page-contact .footer-contact {
-  display: block;
-  background: #fff;
-}
-
-.page-contact .site-inner {
-  padding: 0;
 }
 
 /* Site Footer

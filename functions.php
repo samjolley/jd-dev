@@ -195,16 +195,7 @@ include get_stylesheet_directory() . '/includes/footer-nav.php';
 include get_stylesheet_directory() . '/includes/enqueue-assets.php';
 
 // Miscellaenous functions used in theme configuration.
-include g
-et_stylesheet_directory() . '/includes/theme-config.php';
-
-// Full width layout
-add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
-// Remove standard loop and replace with loop showing Posts, not Page content.
-remove_action( 'genesis_loop', 'genesis_do_loop' );
-// We've already removed the loop. We don't want to add this custom one in.
-// add_action ( 'genesis_loop', 'utility_pro_front_loop' );
-
+include get_stylesheet_directory() . '/includes/theme-config.php';
 
 
 // Add Editor Style

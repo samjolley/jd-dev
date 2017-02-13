@@ -44,11 +44,6 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_welcome' );
 		}
 
-		// Add home logos area if "Logos Section" widget area is active.
-		if ( $home_sidebars['logos'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_logos' );
-		}
-
 		// Add home gallery area if "Home Gallery 1" widget area is active.
 		if ( $home_sidebars['home_gallery_1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_gallery' );
@@ -58,18 +53,31 @@ function utility_pro_homepage_setup() {
 		if ( $home_sidebars['call_to_action'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_call_to_action' );
 		}
+
+		// Add home logos area if "Logos Section" widget area is active.
+		if ( $home_sidebars['logos'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_logos' );
+		}
+
+		// Add home Section 1 area if "Section 1" widget area is active.
+		if ( $home_sidebars['section-1'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
+		}
 	}
+
+
 
 	// Full width layout.
 	// Uncomment the filter below if you'd like a full-width layout on the front page.
-	// add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+	add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
 	// Filter site title markup to include an h1.
 	add_filter( 'genesis_site_title_wrap', 'utility_pro_return_h1' );
 
 	// Remove standard loop and replace with loop showing Posts, not Page content.
 	remove_action( 'genesis_loop', 'genesis_do_loop' );
-	add_action( 'genesis_loop', 'utility_pro_front_loop' );
+	// We've already removed the loop. We don't want to add this custom one in.
+	// add_action ( 'genesis_loop', 'utility_pro_front_loop' );
 }
 
 /**
@@ -95,21 +103,6 @@ function utility_pro_add_home_welcome() {
 	genesis_widget_area( 'utility-home-welcome',
 		array(
 			'before' => '<div class="home-welcome"><div class="wrap">',
-			'after' => '</div></div>',
-		)
-	);
-}
-
-/**
- * Display content for the "Logos Section".
- *
- * @since 1.0.0
- */
-function utility_pro_add_logos() {
-
-	genesis_widget_area( 'utility-logos',
-		array(
-			'before' => '<div class="logos"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);
@@ -175,6 +168,37 @@ function utility_pro_add_call_to_action() {
 		)
 	);
 }
+
+/**
+ * Display content for the "Logos Section".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_logos() {
+
+	genesis_widget_area( 'utility-logos',
+		array(
+			'before' => '<div class="logos"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Section 1".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_section_1() {
+
+	genesis_widget_area( 'utility-section-1',
+		array(
+			'before' => '<div class="section-1"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
 
 /**
  * Display latest posts instead of static page.

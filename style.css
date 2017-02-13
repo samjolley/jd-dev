@@ -788,6 +788,10 @@ Structure and Layout
   padding-top: 40px;
 }
 
+.home .site-inner {
+  display: none;
+}
+
 .utility-landing .site-container {
   margin: 40px auto;
   max-width: 960px;
@@ -955,6 +959,19 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     clear: both;
   }
 }
+/* Front Page
+--------------------------------------------- */
+/* Contact Page
+--------------------------------------------- */
+.page-contact .footer-contact {
+  display: block;
+  background: #fff;
+}
+
+.page-contact .site-inner {
+  padding: 0;
+}
+
 /* # Common
 ---------------------------------------------------------------------------------------------------- */
 /*
@@ -1395,6 +1412,24 @@ Widgets
     width: 60%;
   }
 }
+/* Logos Section
+--------------------------------------------- */
+.logos {
+  background: #fff;
+  padding: 40px 0 20px;
+}
+
+.logos .widget {
+  padding: 0 20px;
+}
+
+/* Section 1
+--------------------------------------------- */
+.section-1 {
+  background: #fff;
+  padding: 40px 0 20px;
+}
+
 /* Featured Page and Featured Post
 --------------------------------------------- */
 .featured-content .entry {
@@ -2299,17 +2334,6 @@ p.form-submit,
   font-family: 'futura-pt', sans-serif;
   font-size: 24px;
   font-weight: 700;
-}
-
-/* Contact Form
---------------------------------------------- */
-.page-contact .footer-contact {
-  display: block;
-  background: #fff;
-}
-
-.page-contact .site-inner {
-  padding: 0;
 }
 
 /* Site Footer
