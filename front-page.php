@@ -58,12 +58,12 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_hard_website' );
 		}
 
-		// Add hard website area if "What I Can Do For You" widget area is active.
+		// Add Can Do widget area if "What I Can Do For You" widget area is active.
 		if ( $home_sidebars['can_do'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_can_do_1' );
 		}
 
-		// Add hard website area if "Why Me" widget area is active.
+		// Add why me website area if "Why Me" widget area is active.
 		if ( $home_sidebars['why_me'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_why_me' );
 		}
@@ -147,8 +147,8 @@ function utility_pro_add_logos() {
 
 	genesis_widget_area( 'utility-logos',
 		array(
-			'before' => '<div class="logos">',
-			'after' => '</div>',
+			'before' => '<div class="logos"><div class="wrap">',
+			'after' => '</div></div>',
 		)
 	);
 }
@@ -162,8 +162,8 @@ function utility_pro_add_hard_website() {
 
 	genesis_widget_area( 'utility-hard-website',
 		array(
-			'before' => '<div class="hard-website">',
-			'after' => '</div>',
+			'before' => '<div class="hard-website"><div class="wrap">',
+			'after' => '</div></div>',
 		)
 	);
 }
@@ -173,9 +173,9 @@ function utility_pro_add_hard_website() {
  *
  * @since 1.0.0
  */
-function utility_pro_add_why_me() {
+function utility_pro_add_can_do_1() {
 
-	printf( '<div %s>', genesis_attr( 'utility-can-do-1' ) );
+	printf( '<div %s>', genesis_attr( 'utility-can-do' ) );
 	genesis_structural_wrap( 'can-do' );
 
 	genesis_widget_area(
@@ -220,8 +220,23 @@ function utility_pro_add_why_me() {
  */
 function utility_pro_add_why_me() {
 
-	printf( '<div %s>', genesis_attr( 'utility-why-me' ) );
-	genesis_structural_wrap( 'why-me' );
+	genesis_widget_area( 'utility-why-me',
+		array(
+			'before' => '<div class="why-me">',
+			'after' => '</div>',
+		)
+	);
+}
+
+/**
+ * Display content for the "Home Works" section.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_home_works() {
+
+	printf( '<div %s>', genesis_attr( 'home-works' ) );
+	genesis_structural_wrap( 'home-works' );
 
 	genesis_widget_area(
 		'utility-home-works-1',

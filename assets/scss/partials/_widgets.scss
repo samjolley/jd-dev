@@ -191,7 +191,7 @@ Widgets
 /* Hard Website Widget Area
 --------------------------------------------- */
 .hard-website {
-	background: $white;
+	background: $gray;
 	padding: 40px 0 20px;
 	text-align: center;
 }
@@ -205,6 +205,40 @@ Widgets
 	color: #4A4A4A;
 }
 
+/* What I Can Do For You Widget Area
+--------------------------------------------- */
+.can-do {
+	background: $white;
+	padding: 40px 0 20px;
+	text-align: center;
+}
+
+.can-do .widget {
+	padding: 0 20px;
+}
+
+
+/* Why Me Widget Area
+--------------------------------------------- */
+.why-me {
+	background: $white;
+	padding: 40px 0 20px;
+	text-align: center;
+}
+
+.why-me .widget {
+	padding: 0 20px;
+}
+
+.why-me :nth-child(odd) {
+	text-align: right;
+	float: right;
+}
+
+.why-me :nth-child(even) {
+	text-align: left;
+	float: left;
+}
 
 
 /* Section 1 Widget Area

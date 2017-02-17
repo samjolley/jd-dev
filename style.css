@@ -1447,6 +1447,57 @@ Widgets
   display: inline-block;
 }
 
+/* Hard Website Widget Area
+--------------------------------------------- */
+.hard-website {
+  background: #F0F0F2;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.hard-website .widget {
+  padding: 0 20px;
+}
+
+.hard-website .widgettitle .widget-title {
+  font-size: 40px;
+  color: #4A4A4A;
+}
+
+/* What I Can Do For You Widget Area
+--------------------------------------------- */
+.can-do {
+  background: #fff;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.can-do .widget {
+  padding: 0 20px;
+}
+
+/* Why Me Widget Area
+--------------------------------------------- */
+.why-me {
+  background: #fff;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.why-me .widget {
+  padding: 0 20px;
+}
+
+.why-me :nth-child(odd) {
+  text-align: right;
+  float: right;
+}
+
+.why-me :nth-child(even) {
+  text-align: left;
+  float: left;
+}
+
 /* Section 1 Widget Area
 --------------------------------------------- */
 .section-1 {
