@@ -175,7 +175,7 @@ function utility_pro_add_hard_website() {
  */
 function utility_pro_add_can_do_1() {
 
-	printf( '<div %s>', genesis_attr( 'utility-can-do' ) );
+	printf( '<div %s>', genesis_attr( 'can-do' ) );
 	genesis_structural_wrap( 'can-do' );
 
 	genesis_widget_area(

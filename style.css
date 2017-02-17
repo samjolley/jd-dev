@@ -1450,7 +1450,7 @@ Widgets
 /* Hard Website Widget Area
 --------------------------------------------- */
 .hard-website {
-  background: #F0F0F2;
+  background: #D8D8D8;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1472,8 +1472,41 @@ Widgets
   text-align: center;
 }
 
+.can-do .fa {
+  color: #0964dd;
+}
+
 .can-do .widget {
   padding: 0 20px;
+}
+
+.can-do-1 .widgettitle {
+  font-size: 40px;
+}
+
+.can-do-1,
+.can-do-2,
+.can-do-3,
+.can-do-4 {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 810px) {
+  .can-do-2,
+  .can-do-3,
+  .can-do-4 {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .can-do-2,
+  .can-do-3,
+  .can-do-4 {
+    float: left;
+    width: 33%;
+  }
 }
 
 /* Why Me Widget Area
@@ -1524,6 +1557,10 @@ Widgets
 
 .home-works .widget {
   padding: 0 20px;
+}
+
+.home-works-1 .widgettitle {
+  font-size: 40px;
 }
 
 .home-works-1,

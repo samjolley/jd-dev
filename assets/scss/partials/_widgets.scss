@@ -191,7 +191,7 @@ Widgets
 /* Hard Website Widget Area
 --------------------------------------------- */
 .hard-website {
-	background: $gray;
+	background: $dark-gray;
 	padding: 40px 0 20px;
 	text-align: center;
 }
@@ -213,8 +213,40 @@ Widgets
 	text-align: center;
 }
 
+.can-do .fa {
+	color: $blue;
+}
+
 .can-do .widget {
 	padding: 0 20px;
+}
+
+.can-do-1 .widgettitle {
+	font-size: 40px;
+}
+
+.can-do-1,
+.can-do-2,
+.can-do-3,
+.can-do-4 {
+	text-align: center;
+	width: 100%;
+}
+
+.can-do-2,
+.can-do-3,
+.can-do-4 {
+
+	@include media($small-screen-up) {
+		float: left;
+		width: 100%;
+	}
+
+	@include media($medium-screen-up) {
+		float: left;
+		width: 33%;
+	}
+
 }
 
 
@@ -267,6 +299,10 @@ Widgets
 
 .home-works .widget {
 	padding: 0 20px;
+}
+
+.home-works-1 .widgettitle {
+	font-size: 40px;
 }
 
 
