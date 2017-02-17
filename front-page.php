@@ -20,6 +20,7 @@ function utility_pro_homepage_setup() {
 		'home_welcome' 	   => is_active_sidebar( 'utility-home-welcome' ),
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 		'logos'   => is_active_sidebar( 'utility-logos' ),
+		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
 	);
@@ -48,6 +49,11 @@ function utility_pro_homepage_setup() {
 		// Add home logos area if "Logos Section" widget area is active.
 		if ( $home_sidebars['logos'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_logos' );
+		}
+
+		// Add hard website area if "Hard Website" widget area is active.
+		if ( $home_sidebars['hard_website'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_hard_website' );
 		}
 
 		// Add how it works widget area if "How it Works 1" widget area is active.
@@ -130,6 +136,21 @@ function utility_pro_add_logos() {
 	genesis_widget_area( 'utility-logos',
 		array(
 			'before' => '<div class="logos"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for the "Hard to Build a Website Section".
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_hard_website() {
+
+	genesis_widget_area( 'utility-hard-website',
+		array(
+			'before' => '<div class="hard-website"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);

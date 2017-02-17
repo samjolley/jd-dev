@@ -28,6 +28,11 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the welcome section at the top of the home page.', 'utility-pro' ),
 		),
 		array(
+			'id'          => 'utility-hard-website',
+			'name'        => __( 'Hard Website', 'utility-pro' ),
+			'description' => __( 'This is the hard-to-build-a-website section on the home page.', 'utility-pro' ),
+		),
+		array(
 			'id'          => 'utility-call-to-action',
 			'name'        => __( 'Call to Action', 'utility-pro' ),
 			'description' => __( 'This is the Call to Action section on the home page.', 'utility-pro' ),
