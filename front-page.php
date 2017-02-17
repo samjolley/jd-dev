@@ -21,6 +21,8 @@ function utility_pro_homepage_setup() {
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
+		'can_do'   => is_active_sidebar( 'utility-can-do' ),
+		'why_me'   => is_active_sidebar( 'utility-why-me' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
 	);
@@ -54,6 +56,16 @@ function utility_pro_homepage_setup() {
 		// Add hard website area if "Hard Website" widget area is active.
 		if ( $home_sidebars['hard_website'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_hard_website' );
+		}
+
+		// Add hard website area if "What I Can Do For You" widget area is active.
+		if ( $home_sidebars['can_do'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_can_do' );
+		}
+
+		// Add hard website area if "Why Me" widget area is active.
+		if ( $home_sidebars['why_me'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_why_me' );
 		}
 
 		// Add how it works widget area if "How it Works 1" widget area is active.
@@ -150,21 +162,36 @@ function utility_pro_add_hard_website() {
 
 	genesis_widget_area( 'utility-hard-website',
 		array(
-			'before' => '<div class="hard-website"><div class="wrap">',
-			'after' => '</div></div>',
+			'before' => '<div class="hard-website">',
+			'after' => '</div>',
 		)
 	);
 }
 
 /**
- * Display content for the "Home Works" section.
+ * Display content for the "What I Can Do For You" section.
  *
  * @since 1.0.0
  */
-function utility_pro_add_home_works() {
+function utility_pro_add_can_do() {
 
-	printf( '<div %s>', genesis_attr( 'home-works' ) );
-	genesis_structural_wrap( 'home-works' );
+	genesis_widget_area( 'utility-can-do',
+		array(
+			'before' => '<div class="can-do">',
+			'after' => '</div>',
+		)
+	);
+}
+
+/**
+ * Display content for the "Why Me" section.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_why_me() {
+
+	printf( '<div %s>', genesis_attr( 'utility-why-me' ) );
+	genesis_structural_wrap( 'why-me' );
 
 	genesis_widget_area(
 		'utility-home-works-1',

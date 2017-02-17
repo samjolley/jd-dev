@@ -43,6 +43,16 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the Logos section on the home page.', 'utility-pro' ),
 		),
 		array(
+			'id'          => 'utility-can-do',
+			'name'        => __( 'Can Do', 'utility-pro' ),
+			'description' => __( 'This is the What I Can Do For You section on the home page.', 'utility-pro' ),
+		),
+		array(
+			'id'          => 'utility-why-me',
+			'name'        => __( 'Why Me', 'utility-pro' ),
+			'description' => __( 'This is the Why Me section on the home page.', 'utility-pro' ),
+		),
+		array(
 			'id'          => 'utility-home-works-1',
 			'name'        => sprintf( _x( 'How it Works %d', 'Group of How it Works widget areas', 'utility-pro' ), 1 ),
 			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
