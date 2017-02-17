@@ -865,8 +865,6 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     clear: both;
   }
 }
-/* Front Page
---------------------------------------------- */
 .page-contact .footer-contact {
   display: block;
   background: #fff;
@@ -1295,7 +1293,7 @@ Widgets
   }
 }
 .logos {
-  background: #fff;
+  background: #F0F0F2;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1303,9 +1301,35 @@ Widgets
 .logos .widget {
   padding: 0 20px;
 }
+
+.logos p {
+  font-size: 18px;
+  font-style: italic;
+  color: #838d8f;
+  margin: 0;
+  line-height: 1;
+  float: right;
+  padding: 15px 0 0 0;
+}
+
+.logos img {
+  max-height: 45px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.logos .logos-carousel {
+  width: 100%;
+  max-width: 910px;
+  float: left;
+  text-align: center;
+  display: inline-block;
+}
 .section-1 {
   background: #fff;
   padding: 40px 0 20px;
+  text-align: center;
 }
 
 .section-1 .widget {
@@ -1314,6 +1338,7 @@ Widgets
 .home-works {
   background: #fff;
   padding: 40px 0 20px;
+  text-align: center;
 }
 
 .home-works .fa {

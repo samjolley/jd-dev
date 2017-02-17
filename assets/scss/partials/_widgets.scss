@@ -154,7 +154,7 @@ Widgets
 /* Logos Section Widget Area
 --------------------------------------------- */
 .logos {
-	background: $white;
+	background: $gray;
 	padding: 40px 0 20px;
 	text-align: center;
 } 	
@@ -163,12 +163,38 @@ Widgets
 	padding: 0 20px;
 }
 
+.logos p {
+	font-size: 18px;
+	font-style: italic;
+	color: #838d8f;
+	margin: 0;
+	line-height: 1;
+	float: left;
+	padding: 15px 0 0 0;
+}
+
+.logos img {
+	max-height: 45px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.logos .logos-carousel {
+	width: 100%;
+	max-width: 910px;
+	float: right;
+	text-align: center;
+	display: inline-block;
+}
+
 
 /* Section 1 Widget Area
 --------------------------------------------- */
 .section-1 {
 	background: $white;
 	padding: 40px 0 20px;
+	text-align: center;
 }
 
 .section-1  .widget {
@@ -180,6 +206,7 @@ Widgets
 .home-works {
 	background: $white;
 	padding: 40px 0 20px;
+	text-align: center;
 }
 
 .home-works .fa {
