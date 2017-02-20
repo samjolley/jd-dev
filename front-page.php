@@ -21,8 +21,8 @@ function utility_pro_homepage_setup() {
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
-		'can_do'   => is_active_sidebar( 'utility-can-do-1' ),
-		'why_me'   => is_active_sidebar( 'utility-why-me-1' ),
+		'can_do_1'   => is_active_sidebar( 'utility-can-do-1' ),
+		'why_me_1'   => is_active_sidebar( 'utility-why-me-1' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
 	);
@@ -59,7 +59,7 @@ function utility_pro_homepage_setup() {
 		}
 
 		// Add Can Do widget area if "What I Can Do For You" widget area is active.
-		if ( $home_sidebars['can_do'] ) {
+		if ( $home_sidebars['can_do_1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_can_do_1' );
 		}
 
@@ -70,7 +70,7 @@ function utility_pro_homepage_setup() {
 
 		// Add how it works widget area if "How it Works 1" widget area is active.
 		if ( $home_sidebars['home_works_1'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_home_works' );
+			add_action( 'genesis_after_header', 'utility_pro_add_home_works_1' );
 		}
 
 		// Add home Section 1 area if "Section 1" widget area is active.
@@ -272,7 +272,7 @@ function utility_pro_add_why_me_1() {
  *
  * @since 1.0.0
  */
-function utility_pro_add_home_works() {
+function utility_pro_add_home_works_1() {
 
 	printf( '<div %s>', genesis_attr( 'home-works' ) );
 	genesis_structural_wrap( 'home-works' );

@@ -1382,25 +1382,6 @@ Widgets
     width: 33%;
   }
 }
-.why-me {
-  background: #fff;
-  padding: 40px 0 20px;
-  text-align: center;
-}
-
-.why-me .widget {
-  padding: 0 20px;
-}
-
-.why-me :nth-child(odd) {
-  text-align: left;
-  float: left;
-}
-
-.why-me :nth-child(even) {
-  text-align: right;
-  float: right;
-}
 .section-1 {
   background: #fff;
   padding: 40px 0 20px;

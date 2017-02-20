@@ -1509,28 +1509,6 @@ Widgets
   }
 }
 
-/* Why Me Widget Area
---------------------------------------------- */
-.why-me {
-  background: #fff;
-  padding: 40px 0 20px;
-  text-align: center;
-}
-
-.why-me .widget {
-  padding: 0 20px;
-}
-
-.why-me :nth-child(odd) {
-  text-align: right;
-  float: right;
-}
-
-.why-me :nth-child(even) {
-  text-align: left;
-  float: left;
-}
-
 /* Section 1 Widget Area
 --------------------------------------------- */
 .section-1 {
