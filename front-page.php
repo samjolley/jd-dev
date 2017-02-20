@@ -22,7 +22,7 @@ function utility_pro_homepage_setup() {
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
 		'can_do'   => is_active_sidebar( 'utility-can-do-1' ),
-		'why_me'   => is_active_sidebar( 'utility-why-me' ),
+		'why_me'   => is_active_sidebar( 'utility-why-me-1' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
 	);
@@ -65,7 +65,7 @@ function utility_pro_homepage_setup() {
 
 		// Add why me website area if "Why Me" widget area is active.
 		if ( $home_sidebars['why_me'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_why_me' );
+			add_action( 'genesis_after_header', 'utility_pro_add_why_me_1' );
 		}
 
 		// Add how it works widget area if "How it Works 1" widget area is active.
@@ -218,14 +218,53 @@ function utility_pro_add_can_do_1() {
  *
  * @since 1.0.0
  */
-function utility_pro_add_why_me() {
+function utility_pro_add_why_me_1() {
 
-	genesis_widget_area( 'utility-why-me',
+	printf( '<div %s>', genesis_attr( 'why-me' ) );
+	genesis_structural_wrap( 'why-me' );
+
+	genesis_widget_area(
+		'utility-why-me-1',
 		array(
-			'before' => '<div class="why-me">,<div class="wrap">',
-			'after' => '</div>,</div>',
+			'before' => '<div class="why-me-1 widget-area">',
+			'after'  => '</div>',
 		)
 	);
+
+	genesis_widget_area(
+		'utility-why-me-2',
+		array(
+			'before' => '<div class="why-me-2 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_widget_area(
+		'utility-why-me-3',
+		array(
+			'before' => '<div class="why-me-3 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_widget_area(
+		'utility-why-me-4',
+		array(
+			'before' => '<div class="why-me-4 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_widget_area(
+		'utility-why-me-5',
+		array(
+			'before' => '<div class="why-me-5 widget-area">',
+			'after'  => '</div>',
+		)
+	);
+
+	genesis_structural_wrap( 'why-me', 'close' );
+	echo '</div>';
 }
 
 /**
