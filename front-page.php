@@ -222,8 +222,8 @@ function utility_pro_add_why_me() {
 
 	genesis_widget_area( 'utility-why-me',
 		array(
-			'before' => '<div class="why-me">',
-			'after' => '</div>',
+			'before' => '<div class="why-me">,<div class="wrap">',
+			'after' => '</div>,</div>',
 		)
 	);
 }
