@@ -226,7 +226,7 @@ function utility_pro_add_why_me_1() {
 	genesis_widget_area(
 		'utility-why-me-1',
 		array(
-			'before' => '<div class="why-me-1 widget-area">',
+			'before' => '<div class="why-me-1 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
@@ -234,7 +234,7 @@ function utility_pro_add_why_me_1() {
 	genesis_widget_area(
 		'utility-why-me-2',
 		array(
-			'before' => '<div class="why-me-2 widget-area">',
+			'before' => '<div class="why-me-2 why-even widget-area">',
 			'after'  => '</div>',
 		)
 	);
@@ -242,7 +242,7 @@ function utility_pro_add_why_me_1() {
 	genesis_widget_area(
 		'utility-why-me-3',
 		array(
-			'before' => '<div class="why-me-3 widget-area">',
+			'before' => '<div class="why-me-3 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
@@ -250,7 +250,7 @@ function utility_pro_add_why_me_1() {
 	genesis_widget_area(
 		'utility-why-me-4',
 		array(
-			'before' => '<div class="why-me-4 widget-area">',
+			'before' => '<div class="why-me-4 why-even widget-area">',
 			'after'  => '</div>',
 		)
 	);
@@ -258,7 +258,7 @@ function utility_pro_add_why_me_1() {
 	genesis_widget_area(
 		'utility-why-me-5',
 		array(
-			'before' => '<div class="why-me-5 widget-area">',
+			'before' => '<div class="why-me-5 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
