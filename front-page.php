@@ -64,7 +64,7 @@ function utility_pro_homepage_setup() {
 		}
 
 		// Add why me website area if "Why Me" widget area is active.
-		if ( $home_sidebars['why_me'] ) {
+		if ( $home_sidebars['why_me_1'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_why_me_1' );
 		}
 

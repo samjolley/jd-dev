@@ -285,6 +285,53 @@ Widgets
 	padding: 0 20px;
 }
 
+/* Why Me Widget Area
+--------------------------------------------- */
+.why-me {
+	background: $white;
+	padding: 40px 0 20px;
+	text-align: center;
+}
+
+.why-me .fa {
+	color: $blue;
+}
+
+.why-me .widget {
+	padding: 0 20px;
+}
+
+.why-mes-1 .widgettitle {
+	font-size: 40px;
+}
+
+
+.why-me-1,
+.why-me-2,
+.why-me-3,
+.why-me-4,
+.why-me-5 {
+	text-align: center;
+	width: 100%;
+}
+
+.why-me-2,
+.why-me-3,
+.why-me-4,
+.why-me-5 {
+
+	@include media($small-screen-up) {
+		float: left;
+		width: 100%;
+	}
+
+	@include media($medium-screen-up) {
+		float: left;
+		width: 33%;
+	}
+
+}
+
 /* How it Works Widget Area
 --------------------------------------------- */
 .home-works {

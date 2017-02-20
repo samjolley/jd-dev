@@ -64,28 +64,28 @@ function utility_pro_register_widget_areas() {
 		),
 		array(
 			'id'          => 'utility-why-me-1',
-			'name'        => sprintf( _x( 'Why Me 1', 'utility-pro' ), 1),
-			'description' => sprintf( _x( 'This is the Why Me section on the home page.', 'utility-pro' ), 1),
+			'name'        => sprintf( _x( 'Why Me 1 %d', 'Group of Why Me widget areas', 'utility-pro' ), 1 ),
+			'description' => sprintf( _x( 'Why Me 1 %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
 		),
 		array(
 			'id'          => 'utility-why-me-2',
-			'name'        => sprintf( _x( 'Why Me 2', 'utility-pro' ), 2),
-			'description' => sprintf( _x( 'This is the Why Me section on the home page.', 'utility-pro' ), 2),
+			'name'        => sprintf( _x( 'Why Me 2 %d', 'Group of Why Me widget areas', 'utility-pro' ), 2 ),
+			'description' => sprintf( _x( 'Why Me 2 %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 2 ),
 		),
 		array(
 			'id'          => 'utility-why-me-3',
-			'name'        => sprintf( _x( 'Why Me 3', 'utility-pro' ), 3),
-			'description' => sprintf( _x( 'This is the Why Me section on the home page.', 'utility-pro' ), 3),
+			'name'        => sprintf( _x( 'Why Me 3 %d', 'Group of Why Me widget areas', 'utility-pro' ), 3 ),
+			'description' => sprintf( _x( 'Why Me 3 %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 3 ),
 		),
 		array(
 			'id'          => 'utility-why-me-4',
-			'name'        => sprintf( _x( 'Why Me 4', 'utility-pro' ), 4),
-			'description' => sprintf( _x( 'This is the Why Me section on the home page.', 'utility-pro' ), 4),
+			'name'        => sprintf( _x( 'Why Me 4 %d', 'Group of Why Me widget areas', 'utility-pro' ), 4 ),
+			'description' => sprintf( _x( 'Why Me 4 %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
 		),
 		array(
 			'id'          => 'utility-why-me-5',
-			'name'        => sprintf( _x( 'Why Me 5', 'utility-pro' ), 5),
-			'description' => sprintf( _x( 'This is the Why Me section on the home page.', 'utility-pro' ), 5),
+			'name'        => sprintf( _x( 'Why Me 5 %d', 'Group of Why Me widget areas', 'utility-pro' ), 5 ),
+			'description' => sprintf( _x( 'Why Me 5 %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 5 ),
 		),
 		array(
 			'id'          => 'utility-home-works-1',

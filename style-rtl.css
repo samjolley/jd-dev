@@ -1410,6 +1410,51 @@ Widgets
 .section-1 .widget {
   padding: 0 20px;
 }
+.why-me {
+  background: #fff;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.why-me .fa {
+  color: #0964dd;
+}
+
+.why-me .widget {
+  padding: 0 20px;
+}
+
+.why-mes-1 .widgettitle {
+  font-size: 40px;
+}
+
+.why-me-1,
+.why-me-2,
+.why-me-3,
+.why-me-4,
+.why-me-5 {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 810px) {
+  .why-me-2,
+  .why-me-3,
+  .why-me-4,
+  .why-me-5 {
+    float: right;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .why-me-2,
+  .why-me-3,
+  .why-me-4,
+  .why-me-5 {
+    float: right;
+    width: 33%;
+  }
+}
 .home-works {
   background: #fff;
   padding: 40px 0 20px;
