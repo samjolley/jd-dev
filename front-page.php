@@ -77,6 +77,11 @@ function utility_pro_homepage_setup() {
 		if ( $home_sidebars['home-testimonials'] ) {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_testimonials' );
 		}
+
+		// Add footer cta area if "Footer CTA" widget area is active.
+		if ( $home_sidebars['footer-cta'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_footer_cta' );
+		}
 	}
 
 
@@ -284,6 +289,22 @@ function utility_pro_add_home_testimonials() {
 	genesis_widget_area( 'utility-home-testimonials',
 		array(
 			'before' => '<div class="home-testimonials" id="home-testimonials"><div class="wrap">',
+			'after' => '</div></div>',
+		)
+	);
+}
+
+/**
+ * Display content for "Footer CTA".
+ *
+ * @since 1.0.0
+ */
+
+function utility_pro_add_footer_cta() {
+
+	genesis_widget_area( 'utility-footer-cta',
+		array(
+			'before' => '<div class="footer-cta" id="footer-cta"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);

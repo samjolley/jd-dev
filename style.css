@@ -1823,6 +1823,46 @@ Widgets
   margin: 0 20px 0 0;
 }
 
+/* Footer CTA
+--------------------------------------------- */
+.footer-cta {
+  background-color: #46b6c7;
+  color: #fff;
+  text-align: center;
+  padding: 65px 0 70px 0;
+}
+
+.footer-cta p {
+  border-right: 1px solid #6bc5d2;
+  margin: 0;
+  font-size: 33px;
+  font-style: italic;
+  text-align: right;
+  /*float: left;*/
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+
+.footer-cta p em {
+  display: block;
+  font-family: 'futura-pt', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: .100em;
+  text-transform: uppercase;
+}
+
+.footer-cta .button {
+  /*float: right;*/
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 20px 80px;
+  border: 4px solid #fff;
+}
+
 /* Featured Page and Featured Post
 --------------------------------------------- */
 .featured-content .entry {

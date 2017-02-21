@@ -92,6 +92,11 @@ function utility_pro_register_widget_areas() {
 			'name'        => __( 'Testimonials', 'utility-pro' ),
 			'description' => __( 'This is the Home Testimonials area on the home page.', 'utility-pro' ),
 		),
+		array(
+			'id'          => 'utility-footer-cta',
+			'name'        => __( 'Footer CTA', 'utility-pro' ),
+			'description' => __( 'This is the Footer CTA area on the home page.', 'utility-pro' ),
+		),
 	);
 
 	$widget_areas = apply_filters( 'utility_pro_default_widget_areas', $widget_areas );

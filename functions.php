@@ -62,6 +62,7 @@ function utility_pro_setup() {
 			'home-why', // Custom.
 			'home-works',   // Custom.
 			'home-testimonials', // Custom.
+			'footer-cta', // Custom.
 			'menu-footer',  // Custom.
 			'nav',
 			'site-inner',
