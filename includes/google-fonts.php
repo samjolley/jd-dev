@@ -1,68 +1,39 @@
 <?php
 /**
- * This file contains elements for theme internationalization.
+ * This file contains all font families used and included in an array that builds a fonts url dynamically.
  *
- * @package Utility_Pro
- * @author Carrie Dils
+ * @package Utility_Pro customized for jolleydigital.com
+ * @author Sam Jolley
  * @license GPL-2.0+
  */
 
 add_action( 'wp_enqueue_scripts', 'utility_pro_enqueue_fonts' );
-/**
- * Load fonts.
- *
- * @since 1.0.0
- */
+
 function utility_pro_enqueue_fonts() {
 	wp_enqueue_style( 'utility-pro-fonts', utility_pro_fonts_url(), array(), null );
 }
 
 /**
- * Build Google fonts URL.
- *
- * This function enqueues Google fonts in such a way that translators can easily turn on/off
- * the fonts if they do not contain the necessary character sets. Hat tip to Frank Klein for
- * the tutorial.
- *
- * @link http://themeshaper.com/2014/08/13/how-to-add-google-fonts-to-wordpress-themes/
- *
- * @since  1.0.0
+ * Build Google fonts URL - listing each font family separately as we build an array.
  */
+
 function utility_pro_fonts_url() {
 	$fonts_url = '';
 
-	/*
-	 * Translators: If there are characters in your language that are not
-	 * supported by this font, translate this to 'off'. Do not translate
-	 * into your own language.
-	 */
-	$enriqueta = _x( 'on', 'Enriqueta font: on or off', 'utility-pro' );
+	$font_families[] = 'Roboto:400,700';
 
-	/*
-	 * Translators: If there are characters in your language that are not
-	 * supported by this font, translate this to 'off'. Do not translate
-	 * into your own language.
-	 */
-	$open_sans = _x( 'on', 'Open Sans font: on or off', 'utility-pro' );
+	$font_families[] = 'Lato:400,700';
 
-	if ( 'off' !== $enriqueta || 'off' !== $open_sans ) {
-		$font_families = array();
+	$font_families[] = 'Open Sans:400,700';
 
-		if ( 'off' !== $enriqueta ) {
-			$font_families[] = 'Enriqueta:400,700';
-		}
 
-		if ( 'off' !== $open_sans ) {
-			$font_families[] = 'Open Sans:400,700';
-		}
+	$query_args = array(
+		'family' => urlencode( implode( '|', $font_families ) ),
+		'subset' => urlencode( 'latin,latin-ext' ),
+	);
 
-		$query_args = array(
-			'family' => urlencode( implode( '|', $font_families ) ),
-			'subset' => urlencode( 'latin,latin-ext' ),
-		);
+	$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
 
-		$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
-	}
 
 	return $fonts_url;
 }
