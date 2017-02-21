@@ -58,7 +58,7 @@ function utility_pro_setup() {
 			'footernav',    // Custom.
 			'header',
 			'hard-website', // Custom.
-			'can-do', // Custom.
+			'home-services', // Custom.
 			'home-why', // Custom.
 			'home-works',   // Custom.
 			'home-testimonials', // Custom.

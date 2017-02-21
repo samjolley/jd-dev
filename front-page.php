@@ -21,7 +21,7 @@ function utility_pro_homepage_setup() {
 		'call_to_action'   => is_active_sidebar( 'utility-call-to-action' ),
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
-		'can_do_1'   => is_active_sidebar( 'utility-can-do-1' ),
+		'home_services'   => is_active_sidebar( 'utility-home-services' ),
 		'home_why'   => is_active_sidebar( 'utility-home-why' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'home-testimonials'   => is_active_sidebar( 'utility-home-testimonials' ),
@@ -59,9 +59,9 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_hard_website' );
 		}
 
-		// Add Can Do widget area if "What I Can Do For You" widget area is active.
-		if ( $home_sidebars['can_do_1'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_can_do_1' );
+		// Add Home Services widget area if "Home Services" widget area is active.
+		if ( $home_sidebars['home_services'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_services' );
 		}
 
 		// Add why me website area if "Why Me" widget area is active.
@@ -175,48 +175,18 @@ function utility_pro_add_hard_website() {
 }
 
 /**
- * Display content for the "What I Can Do" section.
+ * Display content for the "Home Services" section.
  *
  * @since 1.0.0
  */
-function utility_pro_add_can_do_1() {
+function utility_pro_add_home_services() {
 
-	printf( '<div %s>', genesis_attr( 'can-do' ) );
-	genesis_structural_wrap( 'can-do');
-
-	genesis_widget_area(
-		'utility-can-do-1',
+	genesis_widget_area( 'utility-home-services',
 		array(
-			'before' => '<div class="can-do-1 widget-area">',
-			'after'  => '</div>',
+			'before' => '<div class="home-services" id="services"><div class="wrap">',
+			'after' => '</div></div>',
 		)
 	);
-
-	genesis_widget_area(
-		'utility-can-do-2',
-		array(
-			'before' => '<div class="can-do-2 widget-area">',
-			'after'  => '</div>',
-		)
-	);
-
-	genesis_widget_area(
-		'utility-can-do-3',
-		array(
-			'before' => '<div class="can-do-3 widget-area">',
-			'after'  => '</div>',
-		)
-	);
-	genesis_widget_area(
-		'utility-can-do-4',
-		array(
-			'before' => '<div class="can-do-4 widget-area">',
-			'after'  => '</div>',
-		)
-	);
-
-	genesis_structural_wrap( 'can-do', 'close' );
-	echo '</div>';
 }
 
 /**

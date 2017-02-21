@@ -43,24 +43,9 @@ function utility_pro_register_widget_areas() {
 			'description' => __( 'This is the Logos section on the home page.', 'utility-pro' ),
 		),
 		array(
-			'id'          => 'utility-can-do-1',
-			'name'        => sprintf( _x( 'What I Can Do %d', 'Group of What I Can Do widget areas', 'utility-pro' ), 1 ),
-			'description' => sprintf( _x( 'What I Can Do %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
-		),
-		array(
-			'id'          => 'utility-can-do-2',
-			'name'        => sprintf( _x( 'What I Can Do %d', 'Group of What I Can Do widget areas', 'utility-pro' ), 2 ),
-			'description' => sprintf( _x( 'What I Can Do %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 2 ),
-		),
-		array(
-			'id'          => 'utility-can-do-3',
-			'name'        => sprintf( _x( 'What I Can Do %d', 'Group of What I Can Do widget areas', 'utility-pro' ), 3 ),
-			'description' => sprintf( _x( 'What I Can Do %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 3 ),
-		),
-		array(
-			'id'          => 'utility-can-do-4',
-			'name'        => sprintf( _x( 'What I Can Do %d', 'Group of What I Can Do widget areas', 'utility-pro' ), 4 ),
-			'description' => sprintf( _x( 'What I Can Do %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
+			'id'          => 'utility-home-services',
+			'name'        => __( 'Services', 'utility-pro' ),
+			'description' => __( 'This is the Home Services area on the home page.', 'utility-pro' ),
 		),
 		array(
 			'id'          => 'utility-home-why',

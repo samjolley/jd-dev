@@ -551,7 +551,7 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #757c7c;
+  background-color: #D8D8D8;
   color: #fff;
   text-decoration: none;
 }
@@ -1335,7 +1335,7 @@ Widgets
   display: inline-block;
 }
 .hard-website {
-  background: #D8D8D8;
+  background: #757c7c;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1358,47 +1358,132 @@ Widgets
 .hard-website p {
   font-size: 24px;
 }
-.can-do {
+.home-services {
   background: #fff;
-  padding: 40px 0 20px;
+  padding: 100px 0;
   text-align: center;
 }
 
-.can-do .fa {
-  color: #0964dd;
-}
+@media only screen and (max-width: 1159px) {
+  .home-services {
+    padding: 60px 0;
+  }
 
-.can-do .widget {
-  padding: 0 20px;
-}
-
-.can-do-1 .widgettitle {
-  font-size: 40px;
-}
-
-.can-do-1,
-.can-do-2,
-.can-do-3,
-.can-do-4 {
-  text-align: center;
-  width: 100%;
-}
-
-@media screen and (min-width: 810px) {
-  .can-do-2,
-  .can-do-3,
-  .can-do-4 {
-    float: right;
-    width: 100%;
+  .home-services .service h3 {
+    font-size: 20px;
   }
 }
-@media screen and (min-width: 1023px) {
-  .can-do-2,
-  .can-do-3,
-  .can-do-4 {
-    float: right;
-    width: 33%;
+@media only screen and (max-width: 959px) {
+  .home-services {
+    padding: 45px 0;
   }
+
+  .home-services .intro {
+    margin: 0 auto 50px auto;
+  }
+
+  .home-services .service {
+    padding: 0 15px 0;
+  }
+
+  .home-services .service p {
+    font-size: 16px;
+  }
+
+  .home-services .service h3 {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .home-services .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 225px;
+  }
+
+  .home-services .service a.button {
+    padding: 15px 15px !important;
+  }
+}
+.home-services h2 {
+  font-size: 46px;
+  margin: 0 0 40px;
+}
+
+.home-services .intro {
+  color: #3b4445;
+  font-size: 24px;
+  font-style: italic;
+  max-width: 750px;
+  margin: 0 auto 75px auto;
+}
+
+.home-services .service {
+  width: 33.333333%;
+  float: right;
+  padding: 0 25px;
+}
+
+.home-services .circle {
+  position: relative;
+  border: 1px solid #F0F0F2;
+  display: block;
+  margin: 0 auto 55px auto;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  line-height: 255px;
+  font-size: 80px;
+}
+
+.home-services .circle:hover {
+  text-decoration: none;
+  box-shadow: inset 0px 0px 0px 10px #D8D8D8;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  color: #757c7c;
+}
+
+.home-services .fa {
+  padding-top: 75px;
+  color: #757c7c;
+}
+
+.home-services .circle .dot {
+  width: 8px;
+  height: 8px;
+  background: #757c7c;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -32px;
+  right: 50%;
+  margin-right: -4px;
+}
+
+.home-services .circle .line {
+  width: 1px;
+  background: #757c7c;
+  height: 25px;
+  display: block;
+  position: absolute;
+  bottom: -25px;
+  right: 50%;
+  margin-right: -1px;
+}
+
+.home-services .service h3 {
+  font-size: 24px;
+  padding: 0 40px;
+  margin: 0 0 30px 0;
+}
+
+.home-services .service p {
+  font-size: 18px;
+  margin: 0 0 42px 0;
 }
 .home-why {
   background: #f0f3f3 url(images/home-why-background.gif) bottom repeat-x;
@@ -1446,20 +1531,20 @@ Widgets
   border-radius: 50%;
   line-height: 255px;
   font-size: 80px;
-  color: #a2dae3;
+  color: #D8D8D8;
   float: right;
   text-align: center;
 }
 
 .home-why .circle:hover {
   text-decoration: none;
-  box-shadow: inset 0px 0px 0px 10px #46b6c7;
+  box-shadow: inset 0px 0px 0px 10px #4A4A4A;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-  color: #46b6c7;
+  color: #4A4A4A;
 }
 
 .home-why .why-even .circle {

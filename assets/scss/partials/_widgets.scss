@@ -218,48 +218,136 @@ Widgets
 	font-size: 24px;
 }
 
-/* What I Can Do For You Widget Area
+/* Home Services Widget Area
 --------------------------------------------- */
-.can-do {
-	background: $white;
-	padding: 40px 0 20px;
-	text-align: center;
+
+.home-services {
+     background: $white;
+     padding: 100px 0;
+     text-align: center;
 }
 
-.can-do .fa {
-	color: $blue;
+@media only screen and (max-width: 1159px) {
+	.home-services {
+          padding: 60px 0;
+     }
+     .home-services .service h3 {
+          font-size: 20px;
+     }
 }
 
-.can-do .widget {
-	padding: 0 20px;
+@media only screen and (max-width: 959px) {
+     .home-services {
+          padding: 45px 0;
+     }
+
+     .home-services .intro {
+          margin: 0 auto 50px auto;
+     }
+
+     .home-services .service {
+          padding: 0 15px 0;
+     }
+
+     .home-services .service p {
+          font-size: 16px;
+     }
+
+     .home-services .service h3 {
+          font-size: 20px;
+          padding: 0;
+     }
+
+     .home-services .circle {
+          width: 200px;
+          height: 200px;
+          line-height: 225px;
+     }
+
+     .home-services .service a.button {
+          padding: 15px 15px !important;
+     }
 }
 
-.can-do-1 .widgettitle {
-	font-size: 40px;
+.home-services h2 {
+     font-size: 46px;
+     margin: 0 0 40px;
 }
 
-.can-do-1,
-.can-do-2,
-.can-do-3,
-.can-do-4 {
-	text-align: center;
-	width: 100%;
+.home-services .intro {
+     color: #3b4445;
+     font-size: 24px;
+     font-style: italic;
+     max-width: 750px;
+     margin: 0 auto 75px auto;
 }
 
-.can-do-2,
-.can-do-3,
-.can-do-4 {
+.home-services .service {
+     width: 33.333333%;
+     float: left;
+     padding: 0 25px;
+}
 
-	@include media($small-screen-up) {
-		float: left;
-		width: 100%;
-	}
+.home-services .circle {
+     position: relative;
+     border: 1px solid $gray;
+     display: block;
+     margin: 0 auto 55px auto;
+     width: 225px;
+     height: 225px;
+     border-radius: 50%;
+     line-height: 255px;
+     font-size: 80px;
+}
 
-	@include media($medium-screen-up) {
-		float: left;
-		width: 33%;
-	}
+.home-services .circle:hover {
+     text-decoration: none;
+     box-shadow: inset 0px 0px 0px 10px $light-gray;
+     -webkit-transition: all .3s linear;
+     -moz-transition: all .3s linear;
+     -ms-transition: all .3s linear;
+     -o-transition: all .3s linear;
+     transition: all .3s linear;
+     color: $dark-gray;
+}
 
+.home-services .fa {
+	padding-top: 75px;
+	color: $dark-gray;
+}
+
+.home-services .circle .dot {
+     width: 8px;
+     height: 8px;
+     background: $dark-gray;
+     display: block;
+     border-radius: 50%;
+     position: absolute;
+     bottom: -32px;
+     left: 50%;
+     margin-left: -4px;
+}
+
+.home-services .circle .line {
+     width: 1px;
+     background: $dark-gray;
+     height: 25px;
+     display: block;
+     position: absolute;
+     bottom: -25px;
+     left: 50%;
+     margin-left: -1px;
+}
+
+.home-services .service h3 {
+     font-size: 24px;
+     padding: 0 40px;
+     margin: 0 0 30px 0;
+}
+
+.home-services .service p {
+     font-size: 18px;
+     margin: 0 0 42px 0;
 }
 
 /* Why Me
@@ -311,20 +399,20 @@ Widgets
      border-radius: 50%;
      line-height: 255px;
      font-size: 80px;
-     color: #a2dae3;
+     color: $light-gray;
      float: left;
      text-align: center;
 }
 
 .home-why .circle:hover {
      text-decoration: none;
-     box-shadow: inset 0px 0px 0px 10px #46b6c7;
+     box-shadow: inset 0px 0px 0px 10px $super-dark-gray;
      -webkit-transition: all .3s linear;
      -moz-transition: all .3s linear;
      -ms-transition: all .3s linear;
      -o-transition: all .3s linear;
      transition: all .3s linear;
-     color: #46b6c7;
+     color: $super-dark-gray;
 }
 
 .home-why  .why-even .circle {
