@@ -24,7 +24,7 @@ function utility_pro_homepage_setup() {
 		'can_do_1'   => is_active_sidebar( 'utility-can-do-1' ),
 		'home_why'   => is_active_sidebar( 'utility-home-why' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
-		'section-1'   => is_active_sidebar( 'utility-section-1' ),
+		'home-testimonials'   => is_active_sidebar( 'utility-home-testimonials' ),
 	);
 
 	// Return early if no sidebars are active.
@@ -274,15 +274,16 @@ function utility_pro_add_home_works_1() {
 }
 
 /**
- * Display content for "Section 1".
+ * Display content for "Testimonials".
  *
  * @since 1.0.0
  */
-function utility_pro_add_section_1() {
 
-	genesis_widget_area( 'utility-section-1',
+function utility_pro_add_home_testimonials() {
+
+	genesis_widget_area( 'utility-home-testimonials',
 		array(
-			'before' => '<div class="section-1"><div class="wrap">',
+			'before' => '<div class="home-testimonials" id="home-testimonials"><div class="wrap">',
 			'after' => '</div></div>',
 		)
 	);

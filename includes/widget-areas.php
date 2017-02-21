@@ -88,9 +88,9 @@ function utility_pro_register_widget_areas() {
 			'description' => sprintf( _x( 'How it Works %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
 		),
 		array(
-			'id'          => 'utility-section-1',
-			'name'        => __( 'Section 1', 'utility-pro' ),
-			'description' => __( 'This is the Section 1 area on the home page.', 'utility-pro' ),
+			'id'          => 'utility-home-testimonials',
+			'name'        => __( 'Testimonials', 'utility-pro' ),
+			'description' => __( 'This is the Home Testimonials area on the home page.', 'utility-pro' ),
 		),
 	);
 
