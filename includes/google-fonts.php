@@ -26,6 +26,8 @@ function utility_pro_fonts_url() {
 
 	$font_families[] = 'Open Sans:400,700';
 
+	$font_families[] = 'Caveat:400,700';
+
 
 	$query_args = array(
 		'family' => urlencode( implode( '|', $font_families ) ),
