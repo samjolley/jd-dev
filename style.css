@@ -1462,9 +1462,19 @@ Widgets
   padding: 0 20px;
 }
 
-.hard-website .widgettitle .widget-title {
-  font-size: 40px;
-  color: #4A4A4A;
+.hard-website .widgettitle {
+  font-size: 46px;
+  color: #000;
+}
+
+.hard-website h3#here-to-help {
+  font-size: 38px;
+  font-style: italic;
+  line-height: 34px;
+}
+
+.hard-website p {
+  font-size: 24px;
 }
 
 /* What I Can Do For You Widget Area
