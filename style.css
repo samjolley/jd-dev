@@ -600,13 +600,13 @@ textarea {
 .button,
 .entry-content a.button,
 input[type="submit"] {
-  background: #0964dd;
-  border: 1px solid #fff;
+  background: #F6A623;
+  border: 1px solid #F0F0F2;
   color: #fff;
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0;
   padding: 16px 24px;
   text-transform: uppercase;
   width: auto;
