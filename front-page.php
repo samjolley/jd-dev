@@ -73,9 +73,9 @@ function utility_pro_homepage_setup() {
 			add_action( 'genesis_after_header', 'utility_pro_add_home_works_1' );
 		}
 
-		// Add home Section 1 area if "Section 1" widget area is active.
-		if ( $home_sidebars['section-1'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_section_1' );
+		// Add home Testimonials area if "Home Testimonials" widget area is active.
+		if ( $home_sidebars['home-testimonials'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_testimonials' );
 		}
 	}
 
