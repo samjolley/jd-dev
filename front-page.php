@@ -22,7 +22,7 @@ function utility_pro_homepage_setup() {
 		'logos'   => is_active_sidebar( 'utility-logos' ),
 		'hard_website'   => is_active_sidebar( 'utility-hard-website' ),
 		'can_do_1'   => is_active_sidebar( 'utility-can-do-1' ),
-		'why_me_1'   => is_active_sidebar( 'utility-why-me-1' ),
+		'home_why_1'   => is_active_sidebar( 'utility-home-why-1' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'section-1'   => is_active_sidebar( 'utility-section-1' ),
 	);
@@ -64,8 +64,8 @@ function utility_pro_homepage_setup() {
 		}
 
 		// Add why me website area if "Why Me" widget area is active.
-		if ( $home_sidebars['why_me_1'] ) {
-			add_action( 'genesis_after_header', 'utility_pro_add_why_me_1' );
+		if ( $home_sidebars['home_why_1'] ) {
+			add_action( 'genesis_after_header', 'utility_pro_add_home_why_1' );
 		}
 
 		// Add how it works widget area if "How it Works 1" widget area is active.
@@ -218,52 +218,52 @@ function utility_pro_add_can_do_1() {
  *
  * @since 1.0.0
  */
-function utility_pro_add_why_me_1() {
+function utility_pro_add_home_why_1() {
 
-	printf( '<div %s>', genesis_attr( 'why-me' ) );
-	genesis_structural_wrap( 'why-me' );
+	printf( '<div %s>', genesis_attr( 'home-why' ) );
+	genesis_structural_wrap( 'home-why' );
 
 	genesis_widget_area(
-		'utility-why-me-1',
+		'utility-home-why-1',
 		array(
-			'before' => '<div class="why-me-1 why-odd widget-area">',
+			'before' => '<div class="home-why-1 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
 
 	genesis_widget_area(
-		'utility-why-me-2',
+		'utility-home-why-2',
 		array(
-			'before' => '<div class="why-me-2 why-even widget-area">',
+			'before' => '<div class="home-why-2 why-even widget-area">',
 			'after'  => '</div>',
 		)
 	);
 
 	genesis_widget_area(
-		'utility-why-me-3',
+		'utility-home-why-3',
 		array(
-			'before' => '<div class="why-me-3 why-odd widget-area">',
+			'before' => '<div class="home-why-3 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
 
 	genesis_widget_area(
-		'utility-why-me-4',
+		'utility-home-why-4',
 		array(
-			'before' => '<div class="why-me-4 why-even widget-area">',
+			'before' => '<div class="home-why-4 why-even widget-area">',
 			'after'  => '</div>',
 		)
 	);
 
 	genesis_widget_area(
-		'utility-why-me-5',
+		'utility-home-why-5',
 		array(
-			'before' => '<div class="why-me-5 why-odd widget-area">',
+			'before' => '<div class="home-why-5 why-odd widget-area">',
 			'after'  => '</div>',
 		)
 	);
 
-	genesis_structural_wrap( 'why-me', 'close' );
+	genesis_structural_wrap( 'home-why', 'close' );
 	echo '</div>';
 }
 

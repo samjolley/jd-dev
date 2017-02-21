@@ -59,7 +59,7 @@ function utility_pro_setup() {
 			'header',
 			'hard-website', // Custom.
 			'can-do', // Custom.
-			'why-me', // Custom.
+			'home-why', // Custom.
 			'home-works',   // Custom.
 			'menu-footer',  // Custom.
 			'nav',

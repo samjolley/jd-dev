@@ -63,27 +63,27 @@ function utility_pro_register_widget_areas() {
 			'description' => sprintf( _x( 'What I Can Do %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
 		),
 		array(
-			'id'          => 'utility-why-me-1',
+			'id'          => 'utility-home-why-1',
 			'name'        => sprintf( _x( 'Why Me %d', 'Group of Why Me widget areas', 'utility-pro' ), 1 ),
 			'description' => sprintf( _x( 'Why Me %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 1 ),
 		),
 		array(
-			'id'          => 'utility-why-me-2',
+			'id'          => 'utility-home-why-2',
 			'name'        => sprintf( _x( 'Why Me %d', 'Group of Why Me widget areas', 'utility-pro' ), 2 ),
 			'description' => sprintf( _x( 'Why Me %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 2 ),
 		),
 		array(
-			'id'          => 'utility-why-me-3',
+			'id'          => 'utility-home-why-3',
 			'name'        => sprintf( _x( 'Why Me %d', 'Group of Why Me widget areas', 'utility-pro' ), 3 ),
 			'description' => sprintf( _x( 'Why Me %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 3 ),
 		),
 		array(
-			'id'          => 'utility-why-me-4',
+			'id'          => 'utility-home-why-4',
 			'name'        => sprintf( _x( 'Why Me %d', 'Group of Why Me widget areas', 'utility-pro' ), 4 ),
 			'description' => sprintf( _x( 'Why Me %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 4 ),
 		),
 		array(
-			'id'          => 'utility-why-me-5',
+			'id'          => 'utility-home-why-5',
 			'name'        => sprintf( _x( 'Why Me %d', 'Group of Why Me widget areas', 'utility-pro' ), 5 ),
 			'description' => sprintf( _x( 'Why Me %d widget area on home page.', 'Description of widget area', 'utility-pro' ), 5 ),
 		),
