@@ -1335,7 +1335,7 @@ Widgets
   display: inline-block;
 }
 .hard-website {
-  background: #757c7c;
+  background: #D8D8D8;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1364,47 +1364,6 @@ Widgets
   text-align: center;
 }
 
-@media only screen and (max-width: 1159px) {
-  .home-services {
-    padding: 60px 0;
-  }
-
-  .home-services .service h3 {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 959px) {
-  .home-services {
-    padding: 45px 0;
-  }
-
-  .home-services .intro {
-    margin: 0 auto 50px auto;
-  }
-
-  .home-services .service {
-    padding: 0 15px 0;
-  }
-
-  .home-services .service p {
-    font-size: 16px;
-  }
-
-  .home-services .service h3 {
-    font-size: 20px;
-    padding: 0;
-  }
-
-  .home-services .circle {
-    width: 200px;
-    height: 200px;
-    line-height: 225px;
-  }
-
-  .home-services .service a.button {
-    padding: 15px 15px !important;
-  }
-}
 .home-services h2 {
   font-size: 46px;
   margin: 0 0 40px;
@@ -1484,6 +1443,16 @@ Widgets
 .home-services .service p {
   font-size: 18px;
   margin: 0 0 42px 0;
+}
+
+@media only screen and (max-width: 1159px) {
+  .home-services {
+    padding: 60px 0;
+  }
+
+  .home-services .service h3 {
+    font-size: 20px;
+  }
 }
 .home-why {
   background: #f0f3f3 url(images/home-why-background.gif) bottom repeat-x;
@@ -1887,6 +1856,354 @@ Widgets
   width: 100%;
 }
 
+/* Media Queries
+---------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1159px) {
+  .home-services {
+    padding: 60px 0;
+  }
+
+  .section-heading-cta span {
+    display: block;
+    font-size: 20px;
+  }
+
+  .section-heading-cta {
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .about-intro {
+    font-size: 20px;
+  }
+
+  .home-logos .logo-carousel-wrap {
+    max-width: 730px;
+    padding: 0 20px;
+  }
+
+  .home-services .service h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .home-services {
+    padding: 45px 0;
+  }
+
+  .section-heading-cta {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .footer-cta,
+  .site-footer,
+  .footer-contact,
+  .home-why {
+    padding: 45px 0;
+  }
+
+  .footer-cta p {
+    border: none;
+    text-align: center;
+    padding: 0;
+    float: none;
+  }
+
+  .footer-cta .button {
+    margin-right: 0;
+    display: block;
+    max-width: 300px;
+    margin: 20px auto 0 auto;
+  }
+
+  .footer-contact .title {
+    font-size: 36px;
+    margin: 0 0 40px 0;
+  }
+
+  .footer-contact .how span {
+    font-size: 28px;
+    height: auto;
+    margin: 0 0 0 10px;
+  }
+
+  .footer-contact .description {
+    font-size: 20px;
+  }
+  .about-intro {
+    padding: 20px;
+  }
+
+  .about-intro img {
+    max-width: 270px;
+    margin: 20px 20px 20px 0;
+  }
+
+  .page-about .blurb .circle {
+    margin-right: 0;
+  }
+
+  .page-about .blurb.even .circle {
+    margin-left: 0;
+    margin-right: 75px;
+  }
+
+  .page-about .blurb .text {
+    margin-right: 300px;
+  }
+
+  .page-about .blurb.even .text {
+    margin-left: 300px;
+  }
+  .featured-work .entry .alignleft {
+    margin: 0 0 20px 30px;
+    max-width: 320px;
+  }
+
+  .featured-work .entry .alignright {
+    margin: 0 30px 20px 0;
+    max-width: 320px;
+  }
+
+  .featured-work .entry {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+
+  .entry-header .entry-title {
+    margin: 0 0 20px 0;
+  }
+
+  .work-logos img {
+    max-width: 100%;
+  }
+
+  .work-logos {
+    margin: 30px 0 0 0;
+    padding: 40px 0 0 0;
+  }
+  .home-logos p {
+    text-align: center;
+    float: none;
+    padding: 5px 0;
+  }
+
+  .home-logos .logo-carousel-wrap {
+    max-width: 100%;
+    float: none;
+  }
+
+  .home-services .intro {
+    margin: 0 auto 50px auto;
+  }
+
+  .home-services .service {
+    padding: 0 15px 0;
+  }
+
+  .home-services .service p {
+    font-size: 16px;
+  }
+
+  .home-services .service h3 {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .home-services .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 225px;
+  }
+
+  .home-services .service a.button {
+    padding: 15px 15px !important;
+  }
+
+  .home-why .wrap,
+  .home-why .why,
+  .home-testimonials .wrap {
+    max-width: 767px;
+  }
+
+  .home-why .why {
+    width: 100%;
+  }
+
+  .home-testimonials {
+    padding: 45px 0;
+  }
+
+  .home-testimonials .testimonial-content {
+    font-size: 20px;
+  }
+
+  .home-testimonials .testimonial-content-wrap {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home-services,
+  .footer-cta,
+  .footer-contact,
+  .home-why,
+  .home-testimonials {
+    padding: 25px 0;
+  }
+
+  .footer-cta p {
+    font-size: 22px;
+  }
+
+  .footer-cta p em {
+    font-size: 25px;
+  }
+
+  .footer-cta .button {
+    padding: 15px 10px !important;
+  }
+
+  .footer-contact .title {
+    font-size: 26px;
+    margin: 0 0 20px 0;
+  }
+
+  .footer-contact .how {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  .footer-contact .how:last-of-type {
+    margin: 0;
+  }
+
+  .footer-contact .how-wrap h6 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .footer-contact .how span {
+    display: none;
+  }
+
+  div.gform_wrapper .ginput_left,
+  div.gform_wrapper .gf_left_half,
+  div.gform_wrapper span.name_first,
+  div.gform_wrapper .ginput_right,
+  div.gform_wrapper .gf_right_half,
+  div.gform_wrapper span.name_last {
+    float: none;
+    width: 100%;
+  }
+
+  div.gform_wrapper li, div.gform_wrapper form li,
+  div.gform_wrapper span.name_first {
+    margin: 0 0 15px 0;
+    list-style: none;
+    display: block;
+  }
+
+  .home-services h2,
+  .home-why h2 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+  }
+
+  .home-services .fa {
+    padding-top: 65px;
+  }
+
+  .home-services .intro {
+    font-size: 18px;
+    margin: 0 auto 20px auto;
+  }
+
+  .home-services .service {
+    padding: 0 0 50px;
+    width: 100%;
+    font-size: none;
+    margin: 0 0 40px 0;
+  }
+
+  .home-services .service:last-of-type {
+    margin: 0;
+  }
+
+  .home-services .service h3,
+  .home-services .service p {
+    margin: 0 0 10px 0;
+  }
+
+  .home-why .why,
+  .home-why .why.why-even,
+  .home-why .why.why-odd {
+    float: none;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .home-why .circle,
+  .home-why .why-even .circle {
+    margin: 0 auto 20px auto;
+    float: none;
+    width: 200px;
+    height: 200px;
+    line-height: 225px;
+    font-size: 80px;
+  }
+
+  .home-why .circle .line,
+  .home-why .circle .dot {
+    display: none;
+  }
+
+  .home-why .why p {
+    font-size: 16px;
+  }
+
+  .home-why .why h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .home-why .cta {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .home-testimonials .intro {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+  }
+
+  .home-testimonials .intro strong {
+    font-size: 24px;
+  }
+
+  .home-testimonials .testimonial-content {
+    font-size: 16px;
+  }
+
+  .home-testimonials .testimonial-bio {
+    width: 100%;
+    text-align: right;
+    display: block;
+    margin: 0 0 20px 0;
+  }
+
+  .home-testimonials .testimonial-bio img {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin: 0 0 0 20px;
+  }
+}
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
 /* ##
