@@ -569,14 +569,14 @@ Widgets
 --------------------------------------------- */
 
 .footer-cta {
-     background-color: #46b6c7;
-     color: #fff;
+     background-color: $blue;
+     color: $white;
      text-align: center;
      padding: 65px 0 70px 0;
 }
 
 .footer-cta p {
-     border-right: 1px solid #6bc5d2;
+     border-right: 1px solid $white;
      margin: 0;
      font-size: 33px;
      font-style: italic;

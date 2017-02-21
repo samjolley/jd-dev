@@ -25,6 +25,7 @@ function utility_pro_homepage_setup() {
 		'home_why'   => is_active_sidebar( 'utility-home-why' ),
 		'home_works_1'   => is_active_sidebar( 'utility-home-works-1' ),
 		'home-testimonials'   => is_active_sidebar( 'utility-home-testimonials' ),
+		'footer-cta'   => is_active_sidebar( 'utility-footer-cta' ),
 	);
 
 	// Return early if no sidebars are active.
