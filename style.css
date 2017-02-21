@@ -427,7 +427,7 @@ body {
   background: #fff;
   color: #545454;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.625;
   overflow-x: hidden;
@@ -537,27 +537,27 @@ h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* Objects
@@ -584,7 +584,7 @@ textarea {
   background: #fff;
   border: 1px solid #d9d9d9;
   color: #545454;
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px;
   width: 100%;
 }
@@ -604,7 +604,7 @@ input[type="submit"] {
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 16px 24px;
@@ -825,7 +825,7 @@ Structure and Layout
 Sidebar
 ---------------------------------------------------------------------------------------------------- */
 .sidebar {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sidebar p:last-child,
@@ -1028,7 +1028,7 @@ img.alignnone,
 }
 
 .wp-caption-text {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   margin: 0;
   text-align: center;
@@ -1198,7 +1198,7 @@ img.alignnone,
   transition: all, 0.2s ease-in-out;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.65;
   max-height: 50%;
   opacity: 0;
@@ -1238,7 +1238,7 @@ img.alignnone,
 }
 
 .author-box-title {
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 10px;
 }
 
@@ -1262,7 +1262,7 @@ Widgets
   background-color: rgba(9, 100, 221, 0.9);
   border-bottom: 1px solid #d9d9d9;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   padding: 10px 0;
   text-align: center;
@@ -1292,14 +1292,14 @@ Widgets
 --------------------------------------------- */
 .home-welcome {
   background-color: rgba(51, 51, 51, 0.8);
-  padding: 40px 0;
+  padding: 300px 0 40px 0;
   text-align: center;
 }
 
 .home-welcome .widgettitle {
   color: #fff;
   text-transform: none;
-  font-size: 55px;
+  font-size: 80px;
 }
 @media screen and (min-width: 480px) {
   .home-welcome .widgettitle {
@@ -1309,7 +1309,10 @@ Widgets
 
 .home-welcome p,
 .home-welcome .textwidget {
-  color: #ebebeb;
+  color: #fff;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 34px;
 }
 @media screen and (min-width: 480px) {
   .home-welcome p,
@@ -1947,8 +1950,7 @@ div.gform_wrapper .gform_footer .gform_button {
 Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-  background: #fff;
-  border-bottom: 1px solid #d9d9d9;
+  background: rgba(51, 51, 51, 0.8);
 }
 
 .site-header .wrap {
@@ -1966,7 +1968,7 @@ Site Header
 @media screen and (min-width: 1023px) {
   .title-area {
     text-align: left;
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -1980,14 +1982,14 @@ Site Header
 .site-title a,
 .site-title a:hover {
   border: 0;
-  color: #1c1c1c;
+  color: #fff;
   font-family: Enriqueta, serif;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .site-description {
-  color: #545454;
-  font-size: 16px;
+  color: #fff;
+  font-size: 18px;
   line-height: 1;
   margin: 0;
 }
@@ -2036,7 +2038,7 @@ Site Header
 @media screen and (min-width: 1023px) {
   .site-header .widget-area {
     text-align: right;
-    width: 51%;
+    width: 60%;
   }
 }
 
@@ -2053,7 +2055,7 @@ Site Header
 }
 
 .header-widget-area .genesis-nav-menu a {
-  color: #000;
+  color: #fff;
 }
 
 .header-widget-area .genesis-nav-menu a:hover,
@@ -2091,7 +2093,7 @@ Site Navigation
 }
 
 .genesis-nav-menu li {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .genesis-nav-menu a {
@@ -2222,7 +2224,7 @@ Site Navigation
   background-color: transparent;
   border: 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px;
   position: absolute;
   right: 0;
@@ -2326,7 +2328,7 @@ Content Area
 }
 
 .widgettitle {
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 1px;
   margin: 10px 0 24px;
   text-transform: uppercase;
@@ -2418,7 +2420,7 @@ Content Area
 --------------------------------------------- */
 .entry-meta {
   color: #545454;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .entry-header .entry-meta {
@@ -2537,7 +2539,7 @@ p.form-submit,
 }
 
 .form-allowed-tags {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Contact Form
@@ -2608,7 +2610,7 @@ Site Footer
 .site-footer {
   background-color: rgba(9, 100, 221, 0.9);
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   padding: 40px 0;
   text-align: center;
 }

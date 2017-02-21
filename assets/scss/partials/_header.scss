@@ -3,8 +3,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background: $white;
-	border-bottom: 1px solid lighten($black, 85);
+	background: rgba(51, 51, 51, 0.8);
 }
 
 .site-header .wrap {
@@ -22,7 +21,7 @@ Site Header
 
 	@include media($medium-screen-up) {
 		text-align: left;
-		width: 45%;
+		width: 40%;
 	}
 }
 
@@ -36,13 +35,13 @@ Site Header
 .site-title a,
 .site-title a:hover {
 	border: 0;
-	color: lighten($black, 11);
+	color: $white;
 	font-family: $serif;
 	font-size: $site-title-font-size;
 }
 
 .site-description {
-	color: lighten($black, 33);
+	color: $white;
 	font-size: $base-font-size;
 	line-height: 1;
 	margin: 0;
@@ -104,7 +103,7 @@ Site Header
 
   @include media($medium-screen-up) {
   		text-align: right;
-  		width: 51%;
+  		width: 60%;
   	}
 }
 
@@ -120,7 +119,7 @@ Site Header
 }
 
 .header-widget-area .genesis-nav-menu a {
-	color: $black;
+	color: $white;
 }
 
 .header-widget-area .genesis-nav-menu a:hover,
