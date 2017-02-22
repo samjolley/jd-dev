@@ -2,9 +2,9 @@
 /**
  * Utility Pro.
  *
- * @package      Utility_Pro
+ * @package      JD_Pro
  * @link         http://www.carriedils.com/utility-pro
- * @author       Carrie Dils
+ * @author       Sam Jolley
  * @copyright    Copyright (c) 2015, Carrie Dils
  * @license      GPL-2.0+
  */

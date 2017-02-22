@@ -1,9 +1,9 @@
 <?php
 /**
- * Front page for the Utility Pro theme
+ * Front page for the JD Pro theme
  *
- * @package Utility_Pro
- * @author  Carrie Dils
+ * @package JD_Pro
+ * @author  Sam Jolley
  * @license GPL-2.0+
  */
 

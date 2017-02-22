@@ -2,11 +2,12 @@
 /**
  * Utility Pro.
  *
- * @package      Utility_Pro
+ * @package      JD Pro
  * @link         http://www.carriedils.com/utility-pro
- * @author       Carrie Dils
+ * @author       Sam Jolley - Jolley Digital LLC
  * @copyright    Copyright (c) 2015, Carrie Dils
  * @license      GPL-2.0+
+ * Utility Pro Theme customized for Jolley Digital LLC
  */
 
 // Load internationalization components.
@@ -201,6 +202,19 @@ include get_stylesheet_directory() . '/includes/enqueue-assets.php';
 
 // Miscellaenous functions used in theme configuration.
 include get_stylesheet_directory() . '/includes/theme-config.php';
+
+// Load BX Slider
+/**
+/**
+ * @author    Noel Tock
+ * @example   http://www.noeltock.com/web-design/wordpress/tutorial-wordpress-bxslider/
+ */
+function loadbxslider()
+{
+    wp_enqueue_style('bxstyle', '/wp-content/themes/yourtheme/bx_styles/bx_styles.css');
+    wp_enqueue_script('bxscript', '/wp-content/themes/yourtheme/js/jquery.bxSlider.min.js', array('jquery'));
+}
+add_action('init', 'loadbxslider');
 
 
 // Add Editor Style
