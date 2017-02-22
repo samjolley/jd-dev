@@ -203,19 +203,6 @@ include get_stylesheet_directory() . '/includes/enqueue-assets.php';
 // Miscellaenous functions used in theme configuration.
 include get_stylesheet_directory() . '/includes/theme-config.php';
 
-// Load BX Slider
-/**
-/**
- * @author    Noel Tock
- * @example   http://www.noeltock.com/web-design/wordpress/tutorial-wordpress-bxslider/
- */
-function loadbxslider()
-{
-    wp_enqueue_style('bxstyle', '/wp-content/themes/jd-pro/bx_styles/bx.styles.min.css');
-    wp_enqueue_script('bxscript', '/wp-content/themes/jd-pro/js/jquery.bxSlider.min.js', array('jquery'));
-}
-add_action('init', 'loadbxslider');
-
 
 // Add Editor Style
 /**
