@@ -3,4 +3,8 @@
 jQuery(function( $ ) {
 	'use strict';
 	$( 'body' ).backstretch( utilityBackstretchL10n.src,{ duration: 3000, fade: 750 } );
+
+     if(mobile) {
+          $('.backstretch').hide();
+     }
 });

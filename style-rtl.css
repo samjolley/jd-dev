@@ -1185,14 +1185,18 @@ Widgets
 }
 .home-welcome {
   background-color: rgba(51, 51, 51, 0.8);
-  padding: 300px 0 40px 0;
+  padding: 40px 20px;
   text-align: center;
+}
+
+.home-welcome .backstretch {
+  display: none;
 }
 
 .home-welcome .widgettitle {
   color: #fff;
   text-transform: none;
-  font-size: 80px;
+  font-size: 24px;
 }
 @media screen and (min-width: 480px) {
   .home-welcome .widgettitle {
@@ -1204,13 +1208,13 @@ Widgets
 .home-welcome .textwidget {
   color: #fff;
   font-style: italic;
-  font-size: 48px;
+  font-size: 24px;
   line-height: 34px;
 }
 @media screen and (min-width: 480px) {
   .home-welcome p,
   .home-welcome .textwidget {
-    font-size: 40px;
+    font-size: 48px;
     line-height: normal;
     margin-bottom: 34px;
   }
@@ -1310,28 +1314,20 @@ Widgets
   padding: 0 20px;
 }
 
-.logos p {
+.logos .widgettitle {
   font-size: 18px;
   font-style: italic;
-  color: #838d8f;
+  color: #757c7c;
   margin: 0;
   line-height: 1;
-  float: right;
-  padding: 15px 0 0 0;
+  padding-bottom: 15px;
 }
 
 .logos img {
   max-height: 45px;
   width: auto;
   display: inline-block;
-  margin: 0 auto;
-  float: right;
-}
-
-.logos .logos-carousel {
-  width: 100%;
-  max-width: 910px;
-  text-align: center;
+  margin: 0 auto 15px;
 }
 .hard-website {
   background: #f0f3f3;
@@ -2911,7 +2907,6 @@ p.form-submit,
   font-size: 16px;
 }
 .footer-contact {
-  display: none;
   background-color: #f0f3f3;
   padding: 65px 0;
 }
