@@ -3,11 +3,20 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background: rgba(51, 51, 51, 0.8);
+     background: rgba(51, 51, 51, 0.8);
 }
 
 .site-header .wrap {
 	padding: 20px 0;
+}
+
+@media only screen and (max-width: 767px) {
+     .backstretch {
+          display: none;
+     }
+     .site-header {
+          background: rgba(51, 51, 51, 0.8);
+     }
 }
 
 /* Title Area
@@ -23,6 +32,12 @@ Site Header
 		text-align: left;
 		width: 40%;
 	}
+}
+
+@media only screen and (min-width: 1179px) {
+     .title-area {
+          width: 30%
+     }
 }
 
 .site-title {
@@ -130,4 +145,10 @@ Site Header
 
 .header-widget-area .genesis-nav-menu .sub-menu a {
 	background-color: lighten($black, 92);
+}
+
+@media only screen and (max-width: 1179px) {
+     .site-header .widget-area {
+          width: 70%
+     }
 }

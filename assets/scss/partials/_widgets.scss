@@ -201,6 +201,7 @@ Widgets
 .hard-website .widgettitle {
 	font-size: 46px;
 	color: $black;
+     text-transform: none;
 }
 
 .hard-website h3#here-to-help {
@@ -331,19 +332,25 @@ Widgets
      margin: 0 0 40px;
 }
 
-.home-why .intro {
-     color: #3b4445;
-     font-size: 24px;
-     font-style: italic;
-     max-width: 750px;
-     margin: 0 auto 75px auto;
-}
-
 .home-why .why {
      width: 780px;
      float: right;
      margin: 0 0 15px 0;
      text-align: left;
+}
+
+.home-why .fa {
+    padding-top: 60px;
+}
+
+.home-why .fa {
+    @include media($small-screen-up) {
+          padding-top: 70px;
+    }
+
+    @include media($medium-screen-up) {
+          padding-top: 70px;
+    }
 }
 
 .home-why .why.why-even {
@@ -359,7 +366,7 @@ Widgets
      width: 225px;
      height: 225px;
      border-radius: 50%;
-     line-height: 255px;
+     line-height: 220px;
      font-size: 80px;
      color: $light-gray;
      float: left;
@@ -415,7 +422,7 @@ Widgets
 }
 
 .home-why .why h3 {
-     color: #46b6c7;
+     color: $orange;
      font-size: 24px;
      margin: 55px 0 20px 0;
 }
@@ -433,7 +440,7 @@ Widgets
 }
 
 .home-why .cta a {
-     color: #e97c3a;
+     color: $orange;
      text-decoration: none;
 }
 
@@ -502,7 +509,7 @@ Widgets
 }
 
 .home-testimonials .intro {
-     color: #b5c3c5;
+     color: $black;
      font-size: 24px;
      font-family: 'futura-pt';
      font-style: italic;
@@ -933,6 +940,14 @@ Footer Widgets
 
 @media only screen and (max-width: 767px) {
 
+     .hard-website .widgettitle {
+          font-size: 30px;
+     }
+
+     .hard-website h3#here-to-help {
+          font-size: 24px;
+     }
+
      .home-services,
      .footer-cta,
      .footer-contact,
@@ -996,7 +1011,7 @@ Footer Widgets
 
      .home-services h2,
      .home-why h2 {
-          font-size: 22px;
+          font-size: 30px;
           margin: 0 0 20px 0;
      }
 
