@@ -211,8 +211,8 @@ include get_stylesheet_directory() . '/includes/theme-config.php';
  */
 function loadbxslider()
 {
-    wp_enqueue_style('bxstyle', '/wp-content/themes/yourtheme/bx_styles/bx_styles.css');
-    wp_enqueue_script('bxscript', '/wp-content/themes/yourtheme/js/jquery.bxSlider.min.js', array('jquery'));
+    wp_enqueue_style('bxstyle', '/wp-content/themes/jd-pro/bx_styles/bx.styles.min.css');
+    wp_enqueue_script('bxscript', '/wp-content/themes/jd-pro/js/jquery.bxSlider.min.js', array('jquery'));
 }
 add_action('init', 'loadbxslider');
 
