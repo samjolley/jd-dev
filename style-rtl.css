@@ -551,7 +551,7 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #D8D8D8;
+  background-color: #f0f3f3;
   color: #fff;
   text-decoration: none;
 }
@@ -1301,7 +1301,7 @@ Widgets
   }
 }
 .logos {
-  background: #F0F0F2;
+  background: #fff;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1334,7 +1334,7 @@ Widgets
   text-align: center;
 }
 .hard-website {
-  background: #D8D8D8;
+  background: #f0f3f3;
   padding: 40px 0 20px;
   text-align: center;
 }
@@ -1384,7 +1384,7 @@ Widgets
 
 .home-services .circle {
   position: relative;
-  border: 1px solid #D8D8D8;
+  border: 1px solid #f0f3f3;
   display: block;
   margin: 0 auto 55px auto;
   width: 225px;
@@ -1396,7 +1396,7 @@ Widgets
 
 .home-services .circle:hover {
   text-decoration: none;
-  box-shadow: inset 0px 0px 0px 10px #D8D8D8;
+  box-shadow: inset 0px 0px 0px 10px #f0f3f3;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
@@ -1499,7 +1499,7 @@ Widgets
   border-radius: 50%;
   line-height: 255px;
   font-size: 80px;
-  color: #D8D8D8;
+  color: #f0f3f3;
   float: right;
   text-align: center;
 }

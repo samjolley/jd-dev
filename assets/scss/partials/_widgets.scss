@@ -157,7 +157,7 @@ Widgets
 /* Logos Section Widget Area
 --------------------------------------------- */
 .logos {
-	background: $gray;
+	background: $white;
 	padding: 40px 0 20px;
 	text-align: center;
 } 	
@@ -320,7 +320,7 @@ Widgets
 --------------------------------------------- */
 
 .home-why {
-     background: #f0f3f3 url(images/home-why-background.gif) bottom repeat-x;
+     background: $light-gray url(images/home-why-background.gif) bottom repeat-x;
      background-size: 30px;
      padding: 100px 0;
      text-align: center;
