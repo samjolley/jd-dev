@@ -1443,16 +1443,15 @@ Widgets
 .logos img {
   max-height: 45px;
   width: auto;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
+  float: left;
 }
 
 .logos .logos-carousel {
   width: 100%;
   max-width: 910px;
-  float: right;
   text-align: center;
-  display: inline-block;
 }
 
 /* Hard Website Widget Area
@@ -1496,7 +1495,7 @@ Widgets
 }
 
 .home-services .intro {
-  color: #3b4445;
+  color: #757c7c;
   font-size: 24px;
   font-style: italic;
   max-width: 750px;
@@ -1511,7 +1510,7 @@ Widgets
 
 .home-services .circle {
   position: relative;
-  border: 1px solid #F0F0F2;
+  border: 1px solid #D8D8D8;
   display: block;
   margin: 0 auto 55px auto;
   width: 225px;
@@ -2037,10 +2036,6 @@ Footer Widgets
 
   .section-heading-cta {
     display: none;
-  }
-
-  .mobile-menu-toggle {
-    display: block;
   }
 
   .footer-cta,
