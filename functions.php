@@ -65,7 +65,7 @@ function utility_pro_setup() {
 			'home-testimonials', // Custom.
 			'footer-cta', // Custom.
 			'menu-footer',  // Custom.
-			'nav',
+			// 'nav',
 			'site-inner',
 			'site-tagline',
 		)
@@ -80,6 +80,10 @@ function utility_pro_setup() {
 		)
 	);
 
+	// Reposition the primary navigation menu
+	remove_action( 'genesis_after_header', 'genesis_do_nav' );
+	add_action( 'genesis_header', 'genesis_do_nav', 12 );
+
 	// Add custom image sizes.
 	add_image_size( 'feature-large', 960, 330, true );
 
@@ -90,6 +94,9 @@ function utility_pro_setup() {
 	genesis_unregister_layout( 'content-sidebar-sidebar' );
 	genesis_unregister_layout( 'sidebar-content-sidebar' );
 	genesis_unregister_layout( 'sidebar-sidebar-content' );
+
+	// Remove the header right widget area
+	unregister_sidebar( 'header-right' );
 
 	// Register the default widget areas.
 	utility_pro_register_widget_areas();

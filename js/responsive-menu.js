@@ -79,8 +79,8 @@
          */
         $.fn[ pluginName ].defaults = {
             l10n: {
-                buttonText: 'Menu',
-                buttonLabel: 'Menu',
+                buttonText: '',
+                buttonLabel: '',
                 subMenuLabel: 'Sub Menu',
                 subMenuButtonLabel: 'Menu',
                 subMenuButtonText: 'Sub Menu',

@@ -1185,12 +1185,8 @@ Widgets
 }
 .home-welcome {
   background-color: rgba(51, 51, 51, 0.8);
-  padding: 40px 20px;
+  padding: 40px 0;
   text-align: center;
-}
-
-.home-welcome .backstretch {
-  display: none;
 }
 
 .home-welcome .widgettitle {
@@ -1493,6 +1489,10 @@ Widgets
   text-align: left;
 }
 
+.home-why a.circle {
+  border: 3px solid;
+}
+
 .home-why .circle {
   background-color: #fff;
   position: relative;
@@ -1503,7 +1503,7 @@ Widgets
   border-radius: 50%;
   line-height: 220px;
   font-size: 80px;
-  color: #f0f3f3;
+  color: #757c7c;
   float: right;
   text-align: center;
 }
@@ -2377,34 +2377,21 @@ div.gform_wrapper .gform_footer .gform_button {
 .site-header .wrap {
   padding: 20px 0;
 }
-
-@media only screen and (max-width: 767px) {
-  .backstretch {
-    display: none;
-  }
-
-  .site-header {
-    background: rgba(51, 51, 51, 0.8);
-  }
-}
 .title-area {
   float: right;
   font-weight: 700;
+  margin-bottom: 20px;
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 1023px) {
   .title-area {
+    padding: 15px 10px 0  0;
     text-align: right;
-    width: 40%;
-  }
-}
-
-@media only screen and (min-width: 1179px) {
-  .title-area {
     width: 30%;
   }
 }
+
 .site-title {
   letter-spacing: 2px;
   line-height: 1;
@@ -2426,11 +2413,6 @@ div.gform_wrapper .gform_footer .gform_button {
   line-height: 1;
   margin: 0;
 }
-.header-full-width .title-area,
-.header-full-width .site-title {
-  width: 100%;
-}
-
 .header-image .site-description,
 .header-image .site-title {
   overflow: hidden;
@@ -2630,7 +2612,7 @@ div.gform_wrapper .gform_footer .gform_button {
   border: 0;
   color: #fff;
   display: block;
-  font-size: 18px;
+  font-size: 1em;
   margin: 0 auto;
   overflow: hidden;
   padding: 9px;
@@ -2698,7 +2680,17 @@ div.gform_wrapper .gform_footer .gform_button {
 .site-header .sub-menu .sub-menu {
   margin-top: -53px;
 }
-.nav-primary,
+.nav-primary {
+  width: 30%;
+  text-align: center;
+}
+@media screen and (min-width: 1023px) {
+  .nav-primary {
+    width: 70%;
+    padding-top: 15px;
+  }
+}
+
 .nav-footer {
   background-color: #121212;
   text-align: center;

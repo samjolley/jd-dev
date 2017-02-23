@@ -39,13 +39,9 @@ Widgets
 --------------------------------------------- */
 
 .home-welcome {
-	background-color: rgba(#333, 0.8);
-	padding: 40px 20px;
-	text-align: center;
-}
-
-.home-welcome .backstretch {
-     display: none;
+     background-color: rgba(#333, 0.8);
+     padding: 40px 0;
+     text-align: center;
 }
 
 .home-welcome .widgettitle {
@@ -358,8 +354,12 @@ Widgets
      text-align: right;
 }
 
+.home-why a.circle {
+  border: 3px solid;
+}
+
 .home-why .circle {
-     background-color: #fff;
+     background-color: $white;
      position: relative;
      display: block;
      margin: 0 195px 0 0;
@@ -368,7 +368,7 @@ Widgets
      border-radius: 50%;
      line-height: 220px;
      font-size: 80px;
-     color: $light-gray;
+     color: $dark-gray;
      float: left;
      text-align: center;
 }

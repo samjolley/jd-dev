@@ -131,7 +131,7 @@ Site Navigation
 	border: 0;
 	color: $white;
 	display: block;
-	font-size: 18px;
+	font-size: 1em;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 9px;
@@ -205,8 +205,16 @@ Site Navigation
 
 /* Primary & Footer Navigation
 --------------------------------------------- */
+.nav-primary {
+	width: 30%;
+	text-align: center;
 
-.nav-primary,
+	@include media($medium-screen-up) {
+		width: 70%;
+		padding-top: 15px;
+	}
+}
+
 .nav-footer {
 	background-color: lighten($black, 7);
 	text-align: center;
