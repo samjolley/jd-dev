@@ -46,6 +46,7 @@ Content Area
      background: $white;
      margin-bottom: 40px;
      word-wrap: break-word;
+     padding: 40px 40px 24px;
 }
 
 
@@ -240,7 +241,7 @@ p.form-submit,
 /* Contact Form
 --------------------------------------------- */
 .footer-contact {
-     background-color: #f0f3f3;
+     background-color: $white;
      padding: 65px 0;
 }
 

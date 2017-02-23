@@ -789,8 +789,7 @@ Structure and Layout
 }
 
 .site-inner {
-  background: whitesmoke;
-  padding-top: 40px;
+  background: #fff;
 }
 
 .home .site-inner {
@@ -2916,6 +2915,7 @@ Content Area
   background: #fff;
   margin-bottom: 40px;
   word-wrap: break-word;
+  padding: 40px 40px 24px;
 }
 
 .entry-content a {
@@ -3105,7 +3105,7 @@ p.form-submit,
 /* Contact Form
 --------------------------------------------- */
 .footer-contact {
-  background-color: #f0f3f3;
+  background-color: #fff;
   padding: 65px 0;
 }
 
