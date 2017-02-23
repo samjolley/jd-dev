@@ -204,7 +204,7 @@ add_filter( 'genesis_footer_creds_text', 'utility_pro_footer_creds' );
  */
 function utility_pro_footer_creds( $creds ) {
 
-	return '&copy; 2017 <a href="http://jd.dev" rel="nofollow">Jolley Digital LLC</a>';
+	return '&copy; 2017 <a href="http://jd.dev" rel="nofollow">Jolley Digital LLC</a><br><p class="favorite">Favorite WordPress Resources: <a href="https://store.carriedils.com/ref/43/" target="_blank" title="Recommended Accessible, Mobile-First Genesis Child Theme">Utility Pro Theme</a>, <a href="http://share.getf.ly/h48m0q" target="_blank" title="Managed WordPress Hosting">Flywheel Hosting</a></p>';
 }
 
 add_filter( 'genesis_author_box_gravatar_size', 'utility_pro_author_box_gravatar_size' );
