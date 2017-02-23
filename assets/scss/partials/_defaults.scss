@@ -348,3 +348,13 @@ th {
 .table-hover > tbody > tr:hover > th {
 	background-color: lighten($black, 92);
 }
+
+hr,
+.clear-line {
+	overflow: hidden;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #f0f3f3;
+	margin: 0 0 60px;
+	padding: 60px 0 0;
+}

@@ -238,6 +238,107 @@ p.form-submit,
 	font-size: $secondary-font-size;
 }
 
+
+/* About Page
+--------------------------------------------- */
+
+.about-intro {
+     overflow: auto;
+     font-size: 24px;
+     border: 1px solid $orange;
+     padding: 30px;
+     margin: 0 0 60px 0;
+}
+
+.about-intro p:last-of-type {
+     margin: 0;
+}
+
+.about-intro img {
+     margin-bottom: 0;
+}
+
+.page-about .fa {
+    padding-top: 60px;
+}
+
+.page-about .fa {
+    @include media($small-screen-up) {
+          padding-top: 70px;
+    }
+
+    @include media($medium-screen-up) {
+          padding-top: 70px;
+    }
+}
+
+.page-about .blurb {
+     overflow: auto;
+     border-bottom: 1px solid $orange;
+     margin: 0 0 50px;
+     /*padding: 40px 0 0;*/
+     padding: 0 0 50px 0;
+}
+
+.page-about .blurb p:last-of-type {
+     margin: 0;
+}
+
+.page-about .blurb:last-of-type {
+     margin: 0;
+     border: none;
+     padding-bottom: 0;
+}
+
+.page-about .blurb .circle {
+     background-color: #fff;
+     position: relative;
+     display: block;
+     margin: 0 75px 0 75px;
+     width: 225px;
+     height: 225px;
+     border-radius: 50%;
+     font-size: 80px;
+     color: $dark-gray;
+     border: 1px solid $dark-gray;
+     float: left;
+     text-align: center;
+}
+
+.page-about .blurb .text {
+     margin: 0 0 0 375px;
+}
+
+.page-about .blurb.even .circle {
+     float: right;
+}
+
+.page-about .blurb.even .text {
+     margin: 0 375px 0 0;
+}
+
+/* Services Page
+--------------------------------------------- */
+.page-services h2 {
+     font-size: 30px;
+     
+     @include media($small-screen-up) {
+          font-size: 46px;
+     }
+}
+
+/* Contact Page
+--------------------------------------------- */
+
+.page-contact .footer-contact {
+     display: block;
+     background: #fff;
+}
+
+.page-contact .site-inner {
+     padding: 0;
+}
+
 /* Contact Form
 --------------------------------------------- */
 .footer-contact {

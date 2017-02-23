@@ -153,6 +153,15 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 
 }
 
+/* Services Page
+--------------------------------------------- */
+.page-services h2 {
+	font-size: 30px;
+	
+	@include media($small-screen-up) {
+		font-size: 46px;
+	}
+}
 
 /* Contact Page
 --------------------------------------------- */
