@@ -1235,7 +1235,7 @@ img.alignnone,
 
 .author-box,
 .archive-description {
-  background-color: #ebebeb;
+  background-color: #fff;
   color: #1c1c1c;
   margin-bottom: 40px;
   padding: 40px;
@@ -2992,12 +2992,12 @@ Content Area
 /* ## Entry Meta
 --------------------------------------------- */
 .entry-meta {
-  color: #545454;
+  color: #fff;
   font-size: 16px;
 }
 
 .entry-header .entry-meta {
-  background-color: #ebebeb;
+  background-color: #fff;
   margin: 0 -40px 24px;
   padding: 10px;
   text-align: right;

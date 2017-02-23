@@ -112,12 +112,12 @@ Content Area
 --------------------------------------------- */
 
 .entry-meta {
-	color: lighten($black, 33);
+	color: $white;
 	font-size: $secondary-font-size;
 }
 
 .entry-header .entry-meta {
-	background-color: lighten($black, 92);
+	background-color: $white;
 	margin: 0 -40px 24px;
 	padding: 10px;
 	text-align: right;
