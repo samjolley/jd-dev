@@ -37,16 +37,24 @@ Site Navigation
 .genesis-nav-menu a:hover,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: lighten($black, 56);
+	color: $orange;
+	border: 1px solid $light-gray;
+	border-color: $gray;
+	background-color: $dark-gray;
 }
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu a:focus {
-	outline: lighten($black, 63) dotted thin;
+	outline: lighten($orange, 63) dotted thin;
+	color: $orange;
+	border: 1px solid $light-gray;
 }
 
 .genesis-nav-menu .sub-menu .current-menu-item > a {
-	color: lighten($black, 56);
+	color: $orange;
+	border: 1px solid $light-gray;
+	border-color: $gray;
+	background-color: $dark-gray;
 }
 
 .genesis-nav-menu > .menu-item > a {
@@ -58,7 +66,7 @@ Site Navigation
 }
 
 .genesis-nav-menu .sub-menu {
-	background-color: lighten($black, 7);
+	background-color: lighten($gray, 7);
 	clear: both;
 	display: none;
 	opacity: 1;
@@ -225,11 +233,16 @@ Site Navigation
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-	color: lighten($black, 56);
+	color: $orange;
+	border: 1px solid $light-gray;
+	border-color: $gray;
+	background-color: $dark-gray;
 }
 
 .nav-primary .sub-menu a:hover {
-	color: lighten($black, 56);
+	color: $orange;
+	border: 1px solid $light-gray;
+	border-color: $gray;
 }
 
 /* Dropdown Menu
