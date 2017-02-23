@@ -10,15 +10,6 @@ Structure and Layout
 	padding: 0 5%;
 	max-width: 100%;
 	word-wrap: break-word;
-
-	@include media($medium-screen-up) {
-		max-width: $wrap-max-width-medium;
-	}
-
-	@include media($large-screen-up) {
-		max-width: $wrap-max-width-large;
-		padding: 0;
-	}
 }
 
 .site-inner {
@@ -151,26 +142,4 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 		clear: both;
 	}
 
-}
-
-/* Services Page
---------------------------------------------- */
-.page-services h2 {
-	font-size: 30px;
-	
-	@include media($small-screen-up) {
-		font-size: 46px;
-	}
-}
-
-/* Contact Page
---------------------------------------------- */
-
-.page-contact .footer-contact {
-	display: block;
-	background: #fff;
-}
-
-.page-contact .site-inner {
-	padding: 0;
 }

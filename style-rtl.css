@@ -698,17 +698,6 @@ Structure and Layout
   max-width: 100%;
   word-wrap: break-word;
 }
-@media screen and (min-width: 1023px) {
-  .wrap {
-    max-width: 960px;
-  }
-}
-@media screen and (min-width: 1180px) {
-  .wrap {
-    max-width: 1140px;
-    padding: 0;
-  }
-}
 
 .site-inner {
   background: #fff;
@@ -879,23 +868,6 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     clear: both;
   }
 }
-.page-services h2 {
-  font-size: 30px;
-}
-@media screen and (min-width: 810px) {
-  .page-services h2 {
-    font-size: 46px;
-  }
-}
-.page-contact .footer-contact {
-  display: block;
-  background: #fff;
-}
-
-.page-contact .site-inner {
-  padding: 0;
-}
-
 /* # Common
 ---------------------------------------------------------------------------------------------------- */
 /*
@@ -1785,24 +1757,14 @@ Widgets
   padding: 40px 0;
 }
 
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
+.footer-widgets-1 {
   float: right;
   margin: 0;
   width: 100%;
 }
-@media screen and (min-width: 810px) {
-  .footer-widgets-1,
-  .footer-widgets-2,
-  .footer-widgets-3 {
-    width: 30%;
-  }
-}
 
 @media screen and (min-width: 810px) {
-  .footer-widgets-1,
-  .footer-widgets-2 {
+  .footer-widgets-1 {
     margin-left: 5%;
   }
 }

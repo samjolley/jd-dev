@@ -48,7 +48,7 @@ function utility_pro_setup() {
 	add_theme_support( 'genesis-accessibility', array( '404-page', 'headings', 'skip-links' ) );
 
 	// Add support for three footer widget areas.
-	add_theme_support( 'genesis-footer-widgets', 3 );
+	add_theme_support( 'genesis-footer-widgets', 1 );
 
 	/* H/t to Marcy Diaz for the tutorial
 	* https://amethystwebsitedesign.com/add-genesis-after-entry-widget-to-pages-and-custom-post-types/ */

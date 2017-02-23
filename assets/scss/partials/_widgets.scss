@@ -656,20 +656,13 @@ Footer Widgets
 	padding: 40px 0;
 }
 
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
+.footer-widgets-1 {
 	float: left;
 	margin: 0;
 	width: 100%;
-
-	@include media($small-screen-up) {
-		width: 30%;
-	}
 }
 
-.footer-widgets-1,
-.footer-widgets-2 {
+.footer-widgets-1 {
 	@include media($small-screen-up) {
 		margin-right: 5%;
 	}
