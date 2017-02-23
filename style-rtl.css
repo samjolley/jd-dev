@@ -551,7 +551,7 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #f0f3f3;
+  background-color: #d3131b;
   color: #fff;
   text-decoration: none;
 }
@@ -1215,44 +1215,6 @@ Widgets
     margin-bottom: 34px;
   }
 }
-.home-gallery {
-  background: #fff;
-  padding: 40px 0 20px;
-}
-
-.home-gallery .fa {
-  color: #0964dd;
-}
-
-.home-gallery .widget {
-  padding: 0 20px;
-}
-
-.home-gallery-1,
-.home-gallery-2,
-.home-gallery-3,
-.home-gallery-4 {
-  text-align: center;
-  width: 100%;
-}
-@media screen and (min-width: 810px) {
-  .home-gallery-1,
-  .home-gallery-2,
-  .home-gallery-3,
-  .home-gallery-4 {
-    float: right;
-    width: 50%;
-  }
-}
-@media screen and (min-width: 1023px) {
-  .home-gallery-1,
-  .home-gallery-2,
-  .home-gallery-3,
-  .home-gallery-4 {
-    float: right;
-    width: 25%;
-  }
-}
 .call-to-action-bar {
   background: #333333;
   background: rgba(51, 51, 51, 0.8);
@@ -1377,7 +1339,7 @@ Widgets
 
 .home-services .circle {
   position: relative;
-  border: 1px solid #f0f3f3;
+  border: 2px solid #f0f3f3;
   display: block;
   margin: 0 auto 55px auto;
   width: 225px;
@@ -2757,14 +2719,12 @@ Content Area
 
 .entry {
   background: #fff;
-  border-top: 1px solid #1c1c1c;
   margin-bottom: 40px;
-  padding: 40px 40px 24px;
   word-wrap: break-word;
 }
 
 .entry-content a {
-  color: #0964dd;
+  color: #d3131b;
 }
 
 .entry-content a:hover {

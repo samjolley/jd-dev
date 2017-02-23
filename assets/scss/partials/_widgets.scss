@@ -68,41 +68,6 @@ Widgets
 	}
 }
 
-/* Home Gallery
---------------------------------------------- */
-
-.home-gallery {
-	background: $white;
-	padding: 40px 0 20px;
-}
-
-.home-gallery .fa {
-	color: $blue;
-}
-
-.home-gallery .widget {
-	padding: 0 20px;
-}
-
-.home-gallery-1,
-.home-gallery-2,
-.home-gallery-3,
-.home-gallery-4 {
-	text-align: center;
-	width: 100%;
-
-	@include media($small-screen-up) {
-		float: left;
-		width: 50%;
-	}
-
-	@include media($medium-screen-up) {
-		float: left;
-		width: 25%;
-	}
-
-}
-
 /* Call to Action
 --------------------------------------------- */
 
@@ -240,7 +205,7 @@ Widgets
 
 .home-services .circle {
      position: relative;
-     border: 1px solid $light-gray;
+     border: 2px solid $light-gray;
      display: block;
      margin: 0 auto 55px auto;
      width: 225px;

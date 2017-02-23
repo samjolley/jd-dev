@@ -43,15 +43,14 @@ Content Area
 }
 
 .entry {
-	background: $white;
-	border-top: 1px solid lighten($black, 11);
-	margin-bottom: 40px;
-	padding: 40px 40px 24px;
-	word-wrap: break-word;
+     background: $white;
+     margin-bottom: 40px;
+     word-wrap: break-word;
 }
 
+
 .entry-content a {
-	color: $blue;
+	color: $red;
 }
 
 .entry-content a:hover {
