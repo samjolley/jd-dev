@@ -279,12 +279,12 @@ p.form-submit,
      font-size: 16px;
 }
 
-.footer-contact .how span {
-     color: #a2dae3;
+.footer-contact .how .fa {
+     color: $orange;
      font-size: 38px;
      float: left;
      height: 105px;
-     margin: 0 15px 0 0;
+     margin: 20px 15px 0 0;
 }
 
 .footer-contact .how:last-of-type {

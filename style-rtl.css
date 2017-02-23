@@ -2933,12 +2933,12 @@ p.form-submit,
   font-size: 16px;
 }
 
-.footer-contact .how span {
-  color: #a2dae3;
+.footer-contact .how .fa {
+  color: #F6A623;
   font-size: 38px;
   float: right;
   height: 105px;
-  margin: 0 0 0 15px;
+  margin: 20px 0 0 15px;
 }
 
 .footer-contact .how:last-of-type {
