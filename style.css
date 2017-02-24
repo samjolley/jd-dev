@@ -459,7 +459,7 @@ textarea:focus,
 }
 
 a {
-  color: #0964dd;
+  color: #3079D9;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -619,7 +619,7 @@ input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
   background-color: #fff;
-  color: #0964dd;
+  color: #3079D9;
 }
 
 .button {
@@ -634,8 +634,8 @@ input:focus[type="submit"],
 .button:hover,
 .entry-content a.button:hover,
 input:hover[type="submit"] {
-  background-color: #d3131b;
-  color: #fff;
+  background-color: #fff;
+  color: #F6A623;
   text-decoration: none;
 }
 
@@ -1251,7 +1251,7 @@ Widgets
 /* Utility Bar
 --------------------------------------------- */
 .utility-bar {
-  background-color: rgba(9, 100, 221, 0.9);
+  background-color: rgba(48, 121, 217, 0.9);
   border-bottom: 1px solid #d9d9d9;
   color: #fff;
   font-size: 21px;
@@ -1666,7 +1666,7 @@ Widgets
 }
 
 .home-works .fa {
-  color: #0964dd;
+  color: #3079D9;
 }
 
 .home-works .widget {
@@ -1833,7 +1833,7 @@ Widgets
 /* Footer CTA
 --------------------------------------------- */
 .footer-cta {
-  background-color: #0964dd;
+  background-color: #3079D9;
   color: #fff;
   text-align: center;
   padding: 65px 0 70px 0;
@@ -1870,6 +1870,10 @@ Widgets
   border: 4px solid #fff;
 }
 
+.footer-cta .button:hover {
+  border: 4px solid #F6A623;
+}
+
 /* Featured Page and Featured Post
 --------------------------------------------- */
 .featured-content .entry {
@@ -1891,7 +1895,7 @@ Widgets
 Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-  background: #0964dd;
+  background: #3079D9;
   color: #fff;
   padding: 40px 0;
 }
@@ -1913,7 +1917,7 @@ Footer Widgets
 }
 
 .footer-widgets a:hover {
-  color: #c9c9c9;
+  color: #F6A623;
 }
 
 .footer-widgets .widget {
@@ -2899,7 +2903,7 @@ Content Area
 /* Entries
 --------------------------------------------- */
 .sticky.entry {
-  border-top: 1px solid #0964dd;
+  border-top: 1px solid #3079D9;
 }
 
 .entry {

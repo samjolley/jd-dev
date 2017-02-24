@@ -628,6 +628,10 @@ Widgets
      border: 4px solid #fff;
 }
 
+.footer-cta .button:hover {
+     border: 4px solid $orange;
+}
+
 
 /* Featured Page and Featured Post
 --------------------------------------------- */
@@ -674,7 +678,7 @@ Footer Widgets
 }
 
 .footer-widgets a:hover {
-	color: lighten($black, 79);
+	color: $orange;
 }
 
 .footer-widgets .widget {
