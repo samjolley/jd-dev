@@ -2987,6 +2987,10 @@ p.form-submit,
   margin: 0 auto;
 }
 
+.footer-contact .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+  display: none;
+}
+
 .footer-contact .title {
   color: #202526;
   font-size: 46px;
@@ -3021,7 +3025,7 @@ p.form-submit,
   font-size: 38px;
   float: right;
   height: 105px;
-  margin: 20px 0 0 15px;
+  margin: 0px 0 0 15px;
 }
 
 .footer-contact .how:last-of-type {
