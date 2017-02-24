@@ -1752,7 +1752,7 @@ Widgets
   margin: 10px 0;
 }
 .footer-widgets {
-  background: #1c1c1c;
+  background: #0964dd;
   color: #fff;
   padding: 40px 0;
 }
@@ -2327,7 +2327,7 @@ div.gform_wrapper .gform_footer .gform_button {
 }
 @media screen and (min-width: 1023px) {
   .title-area {
-    padding: 15px 10px 0  0;
+    padding: 15px 70px 0  0;
     text-align: right;
     width: 30%;
   }
@@ -3037,7 +3037,7 @@ p.form-submit,
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
-  background-color: rgba(9, 100, 221, 0.9);
+  background-color: #4A4A4A;
   color: #fff;
   font-size: 21px;
   padding: 40px 0;
