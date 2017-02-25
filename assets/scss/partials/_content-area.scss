@@ -419,3 +419,76 @@ p.form-submit,
      font-size: 24px;
      font-weight: 700;
 }
+
+/* Footer-Contact Media Queries */
+     @media only screen and (max-width: 959px) {
+          .footer-contact .title {
+               font-size: 36px;
+               margin: 0 0 40px 0;
+          }
+
+          .footer-contact .how span {
+               font-size: 28px;
+               height: auto;
+               margin: 0 10px 0 0;
+          }
+
+          .footer-contact .description {
+               font-size: 20px;
+          }
+     }
+
+     @media only screen and (max-width: 767px) {
+          .footer-cta p {
+               font-size: 22px;
+          }
+
+          .footer-cta p em {
+               font-size: 25px;
+          }
+
+          .footer-cta .button {
+               padding: 15px 10px !important;
+          }
+
+          .footer-contact .title {
+               font-size: 26px;
+               margin: 0 0 20px 0;
+          }
+
+          .footer-contact .how {
+               width: 100%;
+               padding: 0;
+               margin: 0 0 15px 0
+          }
+
+          .footer-contact .how:last-of-type {
+               margin: 0;
+          }
+
+          .footer-contact .how-wrap h6 {
+               margin: 0;
+               font-size: 20px;
+          }
+
+          .footer-contact .how span {
+               display: none;
+          }
+
+          div.gform_wrapper .ginput_left,
+          div.gform_wrapper .gf_left_half,
+          div.gform_wrapper span.name_first,
+          div.gform_wrapper .ginput_right,
+          div.gform_wrapper .gf_right_half,
+          div.gform_wrapper span.name_last {
+               float: none;
+               width: 100%;
+          }
+
+          div.gform_wrapper li, div.gform_wrapper form li,
+          div.gform_wrapper span.name_first {
+               margin: 0 0 15px 0;
+               list-style: none;
+               display: block;
+          }
+     }

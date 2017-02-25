@@ -45,11 +45,11 @@ $wrap-max-width-large: $max-width;
 
 // Global Font Families
 //------------------------------------------------------------------------------
-$sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: Lato, sans-s;
 $sans-serif-alt: Raleway, "Helvetica Neue", Helvetica, Arial, sans-s;
-$serif: Enriqueta, serif;
+$serif: Lato, sans-s;
 $mono: "Courier 10 Pitch", Courier, monospace;
-$site-title: "Caveat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$site-title: Caveat, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 // Base Font Families
 //------------------------------------------------------------------------------
 $base-font-family: $sans-serif;
