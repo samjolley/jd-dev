@@ -128,7 +128,7 @@ Site Navigation
 	display: none;
 	position: relative;
 
-	@include media($medium-screen-up) {
+	@include media($small-screen-up) {
 		display: inline-block;
 	}
 }
@@ -214,7 +214,7 @@ Site Navigation
 /* Primary & Footer Navigation
 --------------------------------------------- */
 .nav-primary {
-	width: 30%;
+	width: 100%;
 	text-align: center;
 
 	@include media($medium-screen-up) {

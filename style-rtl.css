@@ -2552,7 +2552,7 @@ div.gform_wrapper .gform_footer .gform_button {
   display: none;
   position: relative;
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 810px) {
   .nav-primary,
   .nav-footer {
     display: inline-block;
@@ -2634,7 +2634,7 @@ div.gform_wrapper .gform_footer .gform_button {
   margin-top: -53px;
 }
 .nav-primary {
-  width: 30%;
+  width: 100%;
   text-align: center;
 }
 @media screen and (min-width: 1023px) {
@@ -3127,12 +3127,16 @@ p.form-submit,
     width: 160px;
     height: 160px;
     font-size: 60px;
-    line-height: 180px;
+    line-height: 160px;
   }
 
   .page-about .blurb .text,
   .page-about .blurb.even .text {
     margin: 0;
+  }
+
+  .page-about .fa {
+    padding-top: 50px;
   }
   .footer-cta p {
     font-size: 22px;
