@@ -704,6 +704,63 @@ Footer Widgets
 	width: 100%;
 }
 
+/* About widget
+--------------------------------------------- */
+
+.about-widget .widget-wrap {
+     background-color: #f0f3f3;
+     border-radius: 3px;
+     padding: 0 40px 40px 40px;
+     text-align: center;
+}
+
+.about-widget h2 {
+     font-size: 34px;
+     text-align: center;
+     text-transform: none;
+     letter-spacing: 0;
+     margin: 10px 0 30px 0;
+}
+
+.about-widget img {
+     /*display: block;*/
+     margin: 0px auto 0 auto;
+     border: 5px solid $blue;
+     border-radius: 50%;
+     max-width: 125px;
+     float: none;
+
+}
+
+.about-widget .text {
+     text-align: left;
+}
+
+.about-widget .text p {
+     margin: 0 0 12px 0;
+}
+
+.about-widget .text p:last-of-type {
+     margin: 0;
+}
+
+.about-widget .social-icons {
+     font-size: 26px;
+     line-height: 1;
+     margin: 30px 0 0 0;
+     text-align: center;
+}
+
+.about-widget .social-icons a {
+     border-bottom: none;
+     display: inline-block;
+     padding: 0 10px;
+}
+
+.about-widget .social-icons a:hover {
+     text-decoration: none;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
