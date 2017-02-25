@@ -422,6 +422,35 @@ p.form-submit,
 
 /* Footer-Contact Media Queries */
      @media only screen and (max-width: 959px) {
+          
+     /* About Page */
+          .about-intro {
+               padding: 20px;
+          }
+
+          .about-intro img {
+               max-width: 270px;
+               margin: 20px 0 20px 20px;
+          }
+
+          .page-about .blurb .circle {
+               margin-left: 0;
+          }
+
+          .page-about .blurb.even .circle {
+               margin-right: 0;
+               margin-left: 75px;
+          }
+
+          .page-about .blurb .text {
+               margin-left: 300px;
+          }
+
+          .page-about .blurb.even .text {
+               margin-right: 300px;
+          }
+
+     /* Footer Contact Widget Area */
           .footer-contact .title {
                font-size: 36px;
                margin: 0 0 40px 0;
@@ -439,6 +468,44 @@ p.form-submit,
      }
 
      @media only screen and (max-width: 767px) {
+          
+     /* About Page */
+          /* About */
+
+          .about-intro {
+               font-size: 16px;
+               margin: 0 0 40px 0;
+          }
+
+          .about-intro img {
+               max-width: 100%;
+               margin: 0 auto 20px auto;
+               display: block;
+               float: none;
+          }
+
+          .page-about .blurb {
+               margin: 0 0 30px;
+               padding: 0 0 30px 0;
+          }
+
+          .page-about .blurb .circle,
+          .page-about .blurb.even .circle {
+               margin: 0 auto 20px auto;
+               float: none;
+               width: 160px;
+               height: 160px;
+               font-size: 60px;
+               line-height: 180px;
+          }
+
+          .page-about .blurb .text,
+          .page-about .blurb.even .text {
+               margin: 0;
+          }
+
+
+     /* Footer Contact Widget Area */
           .footer-cta p {
                font-size: 22px;
           }
