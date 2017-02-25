@@ -238,6 +238,25 @@ p.form-submit,
 	font-size: $secondary-font-size;
 }
 
+/* Start Here Page
+--------------------------------------------- */
+.page-start .nav-primary a:hover,
+.page-start .nav-primary .current-menu-item > a {
+  color: #fff;
+  border: 1px solid #f0f3f3;
+  border-color: #F0F0F2;
+}
+
+.page-start .site-inner,
+.page-start .entry,
+.page-start .site-header {
+  background: $blue;
+}
+
+.page-start h2,
+.page-start p {
+     color: $white;
+}
 
 /* About Page
 --------------------------------------------- */

@@ -2654,7 +2654,7 @@ div.gform_wrapper .gform_footer .gform_button {
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
 .nav-footer .current-menu-item > a {
-  color: #F6A623;
+  color: #fff;
   border: 1px solid #f0f3f3;
   border-color: #F0F0F2;
   background-color: #757c7c;
@@ -2890,6 +2890,23 @@ p.form-submit,
 
 .form-allowed-tags {
   font-size: 21px;
+}
+.page-start .nav-primary a:hover,
+.page-start .nav-primary .current-menu-item > a {
+  color: #fff;
+  border: 1px solid #f0f3f3;
+  border-color: #F0F0F2;
+}
+
+.page-start .site-inner,
+.page-start .entry,
+.page-start .site-header {
+  background: #3079D9;
+}
+
+.page-start h2,
+.page-start p {
+  color: #fff;
 }
 .about-intro {
   overflow: auto;
