@@ -1,1 +1,25 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 260 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><g><text x="60.155px" y="30.908px" style="font-family:'Enriqueta-Bold';font-size:31.006px;fill:#000;">U<tspan x="83.565px 103.936px 116.555px 134.756px 147.376px 167.747px " y="30.908px 30.908px 30.908px 30.908px 30.908px 30.908px ">TILITY</tspan></text><text x="60.155px" y="50.972px" style="font-family:'Enriqueta-Regular';font-size:13.503px;fill:#000;">Building great things together</text><path d="M29.178,4.796l6.408,19.254l20.737,0l-16.776,11.9l6.408,19.254l-16.777,-11.9l-16.776,11.9l6.408,-19.254l-16.777,-11.9l20.737,0l6.408,-19.254Z" style="fill:#0964dd;"/><text x="193.35px" y="30.857px" style="font-family:'Enriqueta-Bold';font-size:31.006px;fill:#0964dd;">P<tspan x="212.325px 234.061px " y="30.857px 30.857px ">RO</tspan></text></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1100 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1.71875,0,0,0.570961,-3.55271e-15,0)">
+        <g id="background">
+            <rect id="light-blue" x="0" y="0" width="640" height="531.156" style="fill:rgb(48,121,217);stroke-width:0.78px;stroke:black;"/>
+        </g>
+    </g>
+    <g id="logo" transform="matrix(1,0,0,1,17.6981,-62.1473)">
+        <g transform="matrix(1,0,0,1,-39.1667,-177.811)">
+            <text x="551.747px" y="459.515px" style="font-family:'Caveat-Regular';font-size:235px;fill:rgb(242,242,242);">D<tspan x="691.102px " y="459.515px ">i</tspan>g󰇮󰇹󰈜󰇱</text>
+        </g>
+        <g transform="matrix(0.288473,-4.98348e-17,-2.2326e-16,0.267857,70.5652,143.718)">
+            <path d="M463.844,271.469C463.844,386.157 370.531,479.469 255.86,479.469C141.172,479.469 47.86,386.156 47.86,271.469C47.86,212.156 73.298,155.469 117.657,116.031C124.251,110.156 134.391,110.718 140.251,117.344C146.126,123.969 145.532,134.032 138.938,139.907C101.391,173.345 79.86,221.282 79.86,271.47C79.86,368.533 158.813,447.47 255.86,447.47C352.907,447.47 431.844,368.532 431.844,271.47C431.844,221.282 410.344,173.345 372.844,139.97C366.219,134.095 365.594,123.97 371.469,117.407C377.407,110.719 387.532,110.157 394.094,116.032C438.406,155.469 463.844,212.156 463.844,271.469ZM255.859,223.469C264.703,223.469 271.859,216.344 271.859,207.469L271.859,47.469C271.859,38.656 264.703,31.469 255.859,31.469C247.015,31.469 239.859,38.657 239.859,47.469L239.859,207.469C239.859,216.344 247.016,223.469 255.859,223.469Z" style="fill:rgb(242,242,242);fill-rule:nonzero;"/>
+        </g>
+        <g id="J - LLEY" transform="matrix(1,0,0,1,10,-390.89)">
+            <g transform="matrix(1,0,0,1,-66.0379,200.563)">
+                <text x="269.717px" y="480.614px" style="font-family:'Lato-Regular';font-size:220px;fill:rgb(242,242,242);">lle<tspan x="494.777px " y="480.614px ">y</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,-27.6981,196.163)">
+                <text x="0px" y="480.614px" style="font-family:'Lato-Regular';font-size:220px;fill:rgb(242,242,242);">J</text>
+            </g>
+        </g>
+    </g>
+</svg>
