@@ -1999,6 +1999,14 @@ Footer Widgets
   text-decoration: none;
 }
 
+/* What you should do now widget
+--------------------------------------------- */
+.do-now {
+  background: #f0f3f3;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 1159px) {

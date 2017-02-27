@@ -1856,6 +1856,11 @@ Widgets
 .about-widget .social-icons a:hover {
   text-decoration: none;
 }
+.do-now {
+  background: #f0f3f3;
+  padding: 30px;
+  margin-bottom: 50px;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
