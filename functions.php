@@ -108,7 +108,7 @@ function utility_pro_setup() {
 	add_action( 'genesis_header', 'genesis_do_nav', 12 );
 
 	// Add custom image sizes.
-	add_image_size( 'feature-large', 960, 330, true );
+	add_image_size( 'feature-large', 1024, 512, true );
 
 	// Unregister secondary sidebar.
 	unregister_sidebar( 'sidebar-alt' );
