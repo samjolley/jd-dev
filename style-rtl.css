@@ -3049,11 +3049,14 @@ p.form-submit,
     font-size: 46px;
   }
 }
-.page-grow .site-header,
 .page-grow .site-inner,
 .page-grow .content,
 .page-grow .entry {
-  background: #63B0F2;
+  background: #3380E6;
+}
+
+.page-grow .site-header {
+  background: #3079D9;
 }
 
 .page-grow .entry {

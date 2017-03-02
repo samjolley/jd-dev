@@ -349,11 +349,14 @@ p.form-submit,
 /* /Grow Page
 --------------------------------------------- */
 
-.page-grow .site-header,
 .page-grow .site-inner,
 .page-grow .content,
 .page-grow .entry {
      background: $light-blue;
+}
+
+.page-grow .site-header {
+     background: $blue;
 }
 
 .page-grow .entry {
