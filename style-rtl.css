@@ -3049,6 +3049,34 @@ p.form-submit,
     font-size: 46px;
   }
 }
+.page-grow .site-header,
+.page-grow .site-inner,
+.page-grow .content,
+.page-grow .entry {
+  background: #63B0F2;
+}
+
+.page-grow .entry {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.page-grow h2,
+.page-grow h3,
+.page-grow p {
+  color: #fff;
+  text-align: center;
+}
+
+.page-grow h2 {
+  font-size: 60px;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+}
+
+.page-grow .nav-primary {
+  display: none;
+}
 .page-contact .footer-contact {
   display: block;
   background: #fff;
