@@ -281,6 +281,11 @@ p.form-submit,
     padding-top: 60px;
 }
 
+.page-about h3,
+.page-about .fa {
+     color: $blue;
+}
+
 .page-about .fa {
     @include media($small-screen-up) {
           padding-top: 70px;

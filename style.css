@@ -3203,6 +3203,11 @@ p.form-submit,
   padding-top: 60px;
 }
 
+.page-about h3,
+.page-about .fa {
+  color: #3079D9;
+}
+
 @media screen and (min-width: 810px) {
   .page-about .fa {
     padding-top: 70px;
