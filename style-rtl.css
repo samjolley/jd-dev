@@ -2768,12 +2768,16 @@ Content Area
   color: #1c1c1c;
   margin-bottom: 24px;
 }
+
+.archive-description {
+  margin-bottom: 0px;
+}
 .sticky.entry {
   border-top: 1px solid #3079D9;
 }
 
 .sticky .entry-header,
-sticky .entry-footer {
+.sticky .entry-footer {
   display: none;
 }
 

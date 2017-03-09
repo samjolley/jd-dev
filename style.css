@@ -2965,6 +2965,10 @@ Content Area
   margin-bottom: 24px;
 }
 
+.archive-description {
+  margin-bottom: 0px;
+}
+
 /* Entries
 --------------------------------------------- */
 .sticky.entry {
@@ -2972,7 +2976,7 @@ Content Area
 }
 
 .sticky .entry-header,
-sticky .entry-footer {
+.sticky .entry-footer {
   display: none;
 }
 
