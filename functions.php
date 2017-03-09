@@ -167,6 +167,20 @@ function utility_pro_add_bar() {
 }
 
 /**
+ * Add Blog Description Widget Area Below Blog Title.
+ *
+ * @since 1.0.0
+ */
+function utility_pro_add_blog_description() {
+
+	genesis_widget_area( 'utility-blog-description', array(
+		'before' => '<div class="utility-blog-description"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+}
+
+
+/**
  * Add featured image above single posts.
  *
  * Outputs image as part of the post content, so it's included in the RSS feed.

@@ -82,6 +82,11 @@ function utility_pro_register_widget_areas() {
 			'name'        => __( 'Footer CTA', 'utility-pro' ),
 			'description' => __( 'This is the Footer CTA area on the home page.', 'utility-pro' ),
 		),
+		array(
+			'id'          => 'utility-blog-description',
+			'name'        => __( 'Blog Description', 'utility-pro' ),
+			'description' => __( 'This is the description area on the blog page.', 'utility-pro' ),
+		),
 	);
 
 	$widget_areas = apply_filters( 'utility_pro_default_widget_areas', $widget_areas );
