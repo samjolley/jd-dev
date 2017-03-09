@@ -50,28 +50,6 @@ function utility_pro_setup() {
 	// Add support for three footer widget areas.
 	add_theme_support( 'genesis-footer-widgets', 1 );
 
-	/* H/t to Marcy Diaz for the tutorial
-	* https://amethystwebsitedesign.com/add-genesis-after-entry-widget-to-pages-and-custom-post-types/ */
-	
-	// Add support for after entry widget
-	add_theme_support( 'genesis-after-entry-widget-area' );
-
-	// Remove after entry widget
-	remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
-
-	// Add after entry widget to posts and pages
-	add_action( 'genesis_after_entry', 'utility_after_entry', 9 );
-	function utility_after_entry() {
-
-	   if ( ! is_singular( array( 'post', 'page' )) )
-	        return;
-
-	        genesis_widget_area( 'after-entry', array(
-	            'before' => '<div class="after-entry widget-area">',
-	            'after'  => '</div>',
-	        ) );
-
-	}
 
 	// Add support for structural wraps (all default Genesis wraps unless noted).
 	add_theme_support(
@@ -166,17 +144,29 @@ function utility_pro_add_bar() {
 	) );
 }
 
-/**
- * Add Blog Description Widget Area Below Blog Title.
- *
- * @since 1.0.0
- */
-function utility_pro_add_blog_description() {
 
-	genesis_widget_area( 'utility-blog-description', array(
-		'before' => '<div class="utility-blog-description"><div class="wrap">',
-		'after'  => '</div></div>',
-	) );
+
+/* H/t to Marcy Diaz for the tutorial
+* https://amethystwebsitedesign.com/add-genesis-after-entry-widget-to-pages-and-custom-post-types/ */
+
+// Add support for after entry widget
+add_theme_support( 'genesis-after-entry-widget-area' );
+
+// Remove after entry widget
+remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
+
+// Add after entry widget to posts and pages
+add_action( 'genesis_after_entry', 'utility_after_entry', 9 );
+function utility_after_entry() {
+
+   if ( ! is_singular( array( 'post', 'page' )) )
+        return;
+
+        genesis_widget_area( 'after-entry', array(
+            'before' => '<div class="after-entry widget-area">',
+            'after'  => '</div>',
+        ) );
+
 }
 
 
