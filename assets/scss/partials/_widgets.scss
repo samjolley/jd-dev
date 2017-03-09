@@ -302,6 +302,7 @@ Widgets
 
 .home-why .fa {
     padding-top: 60px;
+    color: $blue;
 }
 
 .home-why .fa {
@@ -333,20 +334,20 @@ Widgets
      border-radius: 50%;
      line-height: 220px;
      font-size: 80px;
-     color: $dark-gray;
+     color: $blue;
      float: left;
      text-align: center;
 }
 
 .home-why .circle:hover {
      text-decoration: none;
-     box-shadow: inset 0px 0px 0px 10px $super-dark-gray;
+     box-shadow: inset 0px 0px 0px 10px $blue;
      -webkit-transition: all .3s linear;
      -moz-transition: all .3s linear;
      -ms-transition: all .3s linear;
      -o-transition: all .3s linear;
      transition: all .3s linear;
-     color: $super-dark-gray;
+     color: $blue;
 }
 
 .home-why  .why-even .circle {

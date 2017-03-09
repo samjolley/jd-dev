@@ -1546,6 +1546,7 @@ Widgets
 
 .home-why .fa {
   padding-top: 60px;
+  color: #3079D9;
 }
 
 @media screen and (min-width: 810px) {
@@ -1578,20 +1579,20 @@ Widgets
   border-radius: 50%;
   line-height: 220px;
   font-size: 80px;
-  color: #757c7c;
+  color: #3079D9;
   float: left;
   text-align: center;
 }
 
 .home-why .circle:hover {
   text-decoration: none;
-  box-shadow: inset 0px 0px 0px 10px #4A4A4A;
+  box-shadow: inset 0px 0px 0px 10px #3079D9;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-  color: #4A4A4A;
+  color: #3079D9;
 }
 
 .home-why .why-even .circle {
