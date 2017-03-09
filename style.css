@@ -1383,7 +1383,7 @@ Widgets
   color: #757c7c;
   margin: 0;
   line-height: 1;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
 }
 
 .logos img {
@@ -1473,13 +1473,13 @@ Widgets
 
 .home-services .fa {
   padding-top: 75px;
-  color: #757c7c;
+  color: #3079D9;
 }
 
 .home-services .circle .dot {
   width: 8px;
   height: 8px;
-  background: #757c7c;
+  background: #3079D9;
   display: block;
   border-radius: 50%;
   position: absolute;
