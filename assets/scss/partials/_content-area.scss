@@ -42,6 +42,11 @@ Content Area
 	border-top: 1px solid $blue;
 }
 
+.sticky .entry-header,
+sticky .entry-footer {
+     display: none;
+}
+
 .entry {
      background: $white;
      margin-bottom: 40px;

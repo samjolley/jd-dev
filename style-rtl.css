@@ -2772,6 +2772,11 @@ Content Area
   border-top: 1px solid #3079D9;
 }
 
+.sticky .entry-header,
+sticky .entry-footer {
+  display: none;
+}
+
 .entry {
   background: #fff;
   margin-bottom: 40px;
