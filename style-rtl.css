@@ -2420,7 +2420,7 @@ div.gform_wrapper .gform_footer .gform_button {
 .header-image .site-description,
 .header-image .site-title {
   overflow: hidden;
-  text-indent: 100%;
+  text-indent: 110%;
   white-space: nowrap;
 }
 .header-image .site-title > a {
