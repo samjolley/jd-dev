@@ -385,7 +385,7 @@ textarea:focus,
 }
 
 a {
-  color: #3079D9;
+  color: #165778;
   border-bottom: 1px dotted;
   font-weight: 700;
   text-decoration: none;
@@ -536,7 +536,7 @@ input:focus[type="submit"],
 .button:focus,
 .entry-content a.button:focus {
   background-color: #fff;
-  color: #3079D9;
+  color: #165778;
 }
 
 .button {
@@ -1145,7 +1145,7 @@ img.alignnone,
 Widgets
 ---------------------------------------------------------------------------------------------------- */
 .utility-bar {
-  background-color: rgba(48, 121, 217, 0.9);
+  background-color: rgba(22, 87, 120, 0.9);
   border-bottom: 1px solid #d9d9d9;
   color: #fff;
   font-size: 21px;
@@ -1352,13 +1352,13 @@ Widgets
 
 .home-services .fa {
   padding-top: 75px;
-  color: #3079D9;
+  color: #165778;
 }
 
 .home-services .circle .dot {
   width: 8px;
   height: 8px;
-  background: #3079D9;
+  background: #165778;
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -1423,7 +1423,7 @@ Widgets
 
 .home-why .fa {
   padding-top: 60px;
-  color: #3079D9;
+  color: #165778;
 }
 
 @media screen and (min-width: 810px) {
@@ -1456,20 +1456,20 @@ Widgets
   border-radius: 50%;
   line-height: 220px;
   font-size: 80px;
-  color: #3079D9;
+  color: #165778;
   float: right;
   text-align: center;
 }
 
 .home-why .circle:hover {
   text-decoration: none;
-  box-shadow: inset 0px 0px 0px 10px #3079D9;
+  box-shadow: inset 0px 0px 0px 10px #165778;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-  color: #3079D9;
+  color: #165778;
 }
 
 .home-why .why-even .circle {
@@ -1542,7 +1542,7 @@ Widgets
 }
 
 .home-works .fa {
-  color: #3079D9;
+  color: #165778;
 }
 
 .home-works .widget {
@@ -1703,7 +1703,7 @@ Widgets
   margin: 0 0 0 20px;
 }
 .footer-cta {
-  background-color: #3079D9;
+  background-color: #165778;
   color: #fff;
   text-align: center;
   padding: 65px 0 70px 0;
@@ -1758,7 +1758,7 @@ Widgets
   margin: 10px 0;
 }
 .footer-widgets {
-  background: #3079D9;
+  background: #165778;
   color: #fff;
   padding: 40px 0;
 }
@@ -1823,7 +1823,7 @@ Widgets
 .about-widget img {
   /*display: block;*/
   margin: 0px auto 0 auto;
-  border: 5px solid #3079D9;
+  border: 5px solid #165778;
   border-radius: 50%;
   max-width: 125px;
   float: none;
@@ -2773,7 +2773,7 @@ Content Area
   margin-bottom: 0px;
 }
 .sticky.entry {
-  border-top: 1px solid #3079D9;
+  border-top: 1px solid #165778;
 }
 
 .sticky .entry-header,
@@ -2969,7 +2969,7 @@ p.form-submit,
 .page-start .site-inner,
 .page-start .entry,
 .page-start .site-header {
-  background: #3079D9;
+  background: #165778;
 }
 
 .page-start h2,
@@ -2998,7 +2998,7 @@ p.form-submit,
 
 .page-about h3,
 .page-about .fa {
-  color: #3079D9;
+  color: #165778;
 }
 
 @media screen and (min-width: 810px) {
@@ -3071,7 +3071,7 @@ p.form-submit,
 }
 
 .page-grow .site-header {
-  background: #3079D9;
+  background: #165778;
 }
 
 .page-grow .entry {
