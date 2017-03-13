@@ -3084,7 +3084,7 @@ p.form-submit,
 
 @media screen and (min-width: 1023px) {
   .page-grow .header-image .site-title > a {
-    background-position: center !important;
+    background-position: center;
   }
 }
 .page-grow h2,
@@ -3106,6 +3106,19 @@ p.form-submit,
 
 .page-grow #seogroup .seo-scorform .greenabar {
   padding: 0px 2% 18px 2%;
+}
+.page-resources a {
+  border-bottom: none;
+}
+
+.jd-resources {
+  vertical-align: top;
+  border-top: 2px solid #f7f8f9;
+  border-left: 1px solid #f7f8f9;
+  border-bottom: 2px solid #f7f8f9;
+  border-right: 1px solid #f7f8f9;
+  text-align: center;
+  letter-spacing: normal;
 }
 .page-contact .footer-contact {
   display: block;
