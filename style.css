@@ -768,7 +768,7 @@ hr,
   overflow: hidden;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #f0f3f3;
+  border-bottom: 2px solid #f0f3f3;
   margin: 0 0 60px;
   padding: 60px 0 0;
 }
@@ -3290,18 +3290,26 @@ p.form-submit,
 .page-grow .site-inner,
 .page-grow .content,
 .page-grow .entry {
-  background: #3380E6;
+  background: #165778;
 }
 
 .page-grow .site-header {
   background: #165778;
 }
 
-.page-grow .entry {
-  margin: 0 auto;
-  width: 80%;
+.page-grow .site-header .wrap {
+  padding: 20px 0 0 0;
 }
 
+.page-grow .title-area {
+  width: 100%;
+}
+
+@media screen and (min-width: 1023px) {
+  .page-grow .header-image .site-title > a {
+    background-position: center !important;
+  }
+}
 .page-grow h2,
 .page-grow h3,
 .page-grow p {
@@ -3317,6 +3325,10 @@ p.form-submit,
 
 .page-grow .nav-primary {
   display: none;
+}
+
+.page-grow #seogroup .seo-scorform .greenabar {
+  padding: 0px 2% 18px 2%;
 }
 
 /* Contact Page
