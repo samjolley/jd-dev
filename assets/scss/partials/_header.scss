@@ -7,7 +7,7 @@ Site Header
 }
 
 .site-header .wrap {
-     padding: 20px 0;
+     padding: 0 0;
 }  
 
 /* Title Area
@@ -19,11 +19,12 @@ Site Header
      margin-bottom: 20px;
 	text-align: center;
 	width: 100%;
+     padding-top: 15px;
 
 	@include media($medium-screen-up) {
 		padding: 15px 0 0  70px;
           text-align: left;
-		width: 30%;
+		width: 22%;
 	}
 }
 
@@ -73,7 +74,7 @@ Site Header
     background-position: center;
     background-repeat: no-repeat;
     float: left;
-    min-height: 130px;
+    min-height: 185px;
     width: 100%;
 
     @include media($medium-screen-up) {
