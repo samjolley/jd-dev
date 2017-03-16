@@ -378,12 +378,17 @@ p.form-submit,
 
 .page-grow .title-area {
      width: 100%;
+     display: none;
 }
 
 @media screen and (min-width: 1023px) {
   .page-grow .header-image .site-title > a {
     background-position: center;
   }
+}
+
+.page-grow .entry-content {
+    padding: 125px 0;
 }
 
 .page-grow h2,

@@ -3081,6 +3081,7 @@ p.form-submit,
 
 .page-grow .title-area {
   width: 100%;
+  display: none;
 }
 
 @media screen and (min-width: 1023px) {
@@ -3088,6 +3089,10 @@ p.form-submit,
     background-position: center;
   }
 }
+.page-grow .entry-content {
+  padding: 125px 0;
+}
+
 .page-grow h2,
 .page-grow h3,
 .page-grow p {
