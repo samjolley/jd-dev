@@ -684,3 +684,8 @@ p.form-submit,
 .page-seo .gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
      color: $white;
 }
+
+.page-seo .do-it,
+.page-seo .get {
+     display: inline-block;
+}

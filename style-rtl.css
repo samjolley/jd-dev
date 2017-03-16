@@ -3361,6 +3361,11 @@ p.form-submit,
   color: #fff;
 }
 
+.page-seo .do-it,
+.page-seo .get {
+  display: inline-block;
+}
+
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 .site-footer {
