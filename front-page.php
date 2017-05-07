@@ -150,14 +150,4 @@ function utility_pro_add_call_to_action() {
 	);
 }
 
-/**
- * Display latest posts instead of static page.
- *
- * @since 1.0.0
- */
-function utility_pro_front_loop() {
-	global $query_args;
-	genesis_custom_loop( wp_parse_args( $query_args, array( 'post_type' => 'post', 'paged' => get_query_var( 'page' ) ) ) );
-}
-
 genesis();
